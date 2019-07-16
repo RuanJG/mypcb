@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC4016
+D  Quad single-pole single-throw analog switch SO14, TSSOP14
+K 74
+$ENDCMP
+#
+$CMP STUSB4500
+D ST PD2.0 charging controller for remover device.
+K usb
+$ENDCMP
+#
+$CMP TCS3200
+D Color Light-to-Frequency  SOIC-8
+K 3200
+$ENDCMP
+#
+#End Doc Library
