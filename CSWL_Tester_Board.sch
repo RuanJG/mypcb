@@ -3443,15 +3443,7 @@ F 0 "D1" V 15700 8950 50  0000 L CNN
 F 1 "1N5819HW-7-F" V 15550 8900 50  0000 L CNN
 F 2 "digikey-footprints:SOD-123" H 16000 9300 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16000 9400 60  0001 L CNN
-F 4 "1N5819HW-FDICT-ND" H 16000 9500 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N5819HW-7-F" H 16000 9600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16000 9700 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 16000 9800 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16000 9900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 16000 10000 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 16000 10100 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 16000 10200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16000 10300 60  0001 L CNN "Status"
+F 4 "jcet  B5819W " V 15800 9100 50  0001 C CNN "Alternative"
 	1    15800 9100
 	0    1    1    0   
 $EndComp
@@ -3554,17 +3546,6 @@ Text Label 16650 9650 0    50   ~ 0
 CSWL_IN+
 Text Label 17050 9650 0    50   ~ 0
 CSWL_IN-
-$Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J16
-U 1 1 5D29A0A0
-P 15850 13300
-F 0 "J16" H 15900 14000 50  0000 C CNN
-F 1 "Conn_02x10_Counter_Clockwise" H 15900 14100 50  0000 C CNN
-F 2 "" H 15850 13300 50  0001 C CNN
-F 3 "~" H 15850 13300 50  0001 C CNN
-	1    15850 13300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15150 12900 15650 12900
 Wire Wire Line
@@ -4605,4 +4586,15 @@ Wire Wire Line
 	21460 7720 22010 7720
 Wire Wire Line
 	21860 7820 22010 7820
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 5D325CE2
+P 15850 13300
+F 0 "J?" H 15900 13917 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 15900 13826 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 15850 13300 50  0001 C CNN
+F 3 "~" H 15850 13300 50  0001 C CNN
+	1    15850 13300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
