@@ -2816,64 +2816,6 @@ F 3 "" H 11023 5609 50  0001 C CNN
 	1    11023 5609
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5D4441A2
-P 11123 6309
-AR Path="/5D3C2445/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5D3F6A12/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5D3FDFBE/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5D403D60/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DCBF0EA/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DD72B02/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DDB81A1/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DE8FB1A/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DEDAB2C/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DF29799/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DF7BF4B/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5DFD1EC3/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5E02C61B/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5E08B2E9/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5E0EDFEE/5D4441A2" Ref="C?"  Part="1" 
-AR Path="/5D4441A2" Ref="C8"  Part="1" 
-F 0 "C8" V 11173 6209 50  0000 R CNN
-F 1 "0.1uF" V 11173 6609 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11161 6159 50  0001 C CNN
-F 3 "~" H 11123 6309 50  0001 C CNN
-	1    11123 6309
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11473 6059 11523 6059
-Wire Wire Line
-	10773 6059 10523 6059
-$Comp
-L power:GND #PWR?
-U 1 1 5D4441AA
-P 10523 6359
-AR Path="/5D3C2445/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5D3F6A12/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5D3FDFBE/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5D403D60/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DCBF0EA/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DD72B02/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DDB81A1/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DE8FB1A/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DEDAB2C/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DF29799/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DF7BF4B/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5DFD1EC3/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5E02C61B/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5E08B2E9/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5E0EDFEE/5D4441AA" Ref="#PWR?"  Part="1" 
-AR Path="/5D4441AA" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 10523 6109 50  0001 C CNN
-F 1 "GND" H 10528 6186 50  0000 C CNN
-F 2 "" H 10523 6359 50  0001 C CNN
-F 3 "" H 10523 6359 50  0001 C CNN
-	1    10523 6359
-	1    0    0    -1  
-$EndComp
 Text Label 10373 5609 0    50   ~ 0
 LED9_S0
 Text Label 10373 5759 0    50   ~ 0
@@ -2898,8 +2840,6 @@ Wire Wire Line
 	11473 5909 11923 5909
 Text Label 10373 5909 0    50   ~ 0
 LED9_EN
-Text GLabel 11573 6059 2    50   Input ~ 0
-VCC33_B
 $Comp
 L Device:R R40
 U 1 1 5D4441BD
@@ -2935,9 +2875,6 @@ F 3 "~" H 10173 5909 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10023 5909 10023 6059
-Wire Wire Line
-	10023 6059 10523 6059
-Connection ~ 10523 6059
 Wire Wire Line
 	10023 5609 10023 5759
 Text GLabel 10023 5459 2    50   Input ~ 0
@@ -2997,23 +2934,9 @@ Text GLabel 12323 5759 2    50   Input ~ 0
 VCC33_B
 Wire Wire Line
 	12223 5759 12323 5759
-Connection ~ 11523 6059
-Wire Wire Line
-	11523 6059 11573 6059
 Wire Wire Line
 	10023 5609 10023 5459
 Connection ~ 10023 5609
-Wire Wire Line
-	10523 6059 10523 6309
-Wire Wire Line
-	11273 6309 11523 6309
-Wire Wire Line
-	11523 6059 11523 6309
-Wire Wire Line
-	10523 6309 10973 6309
-Connection ~ 10523 6309
-Wire Wire Line
-	10523 6309 10523 6359
 $Comp
 L RuanProject:TCS3200 U21
 U 1 1 5D4793A6
@@ -4196,19 +4119,6 @@ F 12 "Active" H 2580 12820 60  0001 L CNN "Status"
 $EndComp
 Wire Wire Line
 	2380 11820 2380 11920
-$Comp
-L Device:R R2
-U 1 1 5DFB126D
-P 1830 11720
-AR Path="/5DFB126D" Ref="R2"  Part="1" 
-AR Path="/5D3C2445/5DFB126D" Ref="R?"  Part="1" 
-F 0 "R2" V 1730 11820 50  0000 R CNN
-F 1 "33R" V 1730 11720 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1760 11720 50  0001 C CNN
-F 3 "~" H 1830 11720 50  0001 C CNN
-	1    1830 11720
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1980 11720 2080 11720
 Wire Wire Line
@@ -4262,110 +4172,17 @@ $EndComp
 Wire Wire Line
 	2380 11920 2380 12000
 Connection ~ 2380 11920
-Text Label 2100 13070 0    50   ~ 0
-S0
-$Comp
-L Device:R R12
-U 1 1 5E2CD21B
-P 2400 12920
-F 0 "R12" H 2330 12874 50  0000 R CNN
-F 1 "10K" H 2330 12965 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 12920 50  0001 C CNN
-F 3 "~" H 2400 12920 50  0001 C CNN
-	1    2400 12920
-	-1   0    0    1   
-$EndComp
-Connection ~ 2400 13070
-Wire Wire Line
-	2400 13070 2050 13070
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q3
-U 1 1 5E2CD230
-P 2400 13270
-F 0 "Q3" H 2500 13370 60  0000 L CNN
-F 1 "2N7002LT1G" H 2530 13270 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 2600 13470 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 2600 13570 60  0001 L CNN
-F 4 "2N7002LT1GOSCT-ND" H 2600 13670 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002LT1G" H 2600 13770 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 2600 13870 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 2600 13970 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 2600 14070 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 2600 14170 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 2600 14270 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 2600 14370 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2600 14470 60  0001 L CNN "Status"
-	1    2400 13270
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 13470 2400 13570
-$Comp
-L Device:R R3
-U 1 1 5E2CD23B
-P 1850 13370
-AR Path="/5E2CD23B" Ref="R3"  Part="1" 
-AR Path="/5D3C2445/5E2CD23B" Ref="R?"  Part="1" 
-F 0 "R3" V 1750 13470 50  0000 R CNN
-F 1 "33R" V 1750 13370 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 13370 50  0001 C CNN
-F 3 "~" H 1850 13370 50  0001 C CNN
-	1    1850 13370
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2000 13370 2100 13370
-Wire Wire Line
-	2000 13370 2000 13570
-Connection ~ 2000 13370
-$Comp
-L Device:R R8
-U 1 1 5E2CD248
-P 2200 13570
-AR Path="/5E2CD248" Ref="R8"  Part="1" 
-AR Path="/5D3C2445/5E2CD248" Ref="R?"  Part="1" 
-F 0 "R8" V 2100 13670 50  0000 R CNN
-F 1 "100K" V 2110 13890 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 13570 50  0001 C CNN
-F 3 "~" H 2200 13570 50  0001 C CNN
-	1    2200 13570
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2350 13570 2400 13570
-Wire Wire Line
-	2000 13570 2050 13570
-Wire Wire Line
-	1250 13370 1700 13370
-Text Label 1250 13370 0    50   ~ 0
-Switchs_S0
-$Comp
-L power:+5V #PWR0135
-U 1 1 5E2CD256
-P 2400 12700
-F 0 "#PWR0135" H 2400 12550 50  0001 C CNN
-F 1 "+5V" H 2415 12873 50  0000 C CNN
-F 2 "" H 2400 12700 50  0001 C CNN
-F 3 "" H 2400 12700 50  0001 C CNN
-	1    2400 12700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 12700 2400 12770
 $Comp
 L power:GND #PWR0136
 U 1 1 5E2CD261
-P 2400 13650
-F 0 "#PWR0136" H 2400 13400 50  0001 C CNN
-F 1 "GND" H 2405 13477 50  0000 C CNN
-F 2 "" H 2400 13650 50  0001 C CNN
-F 3 "" H 2400 13650 50  0001 C CNN
-	1    2400 13650
+P 1975 13675
+F 0 "#PWR0136" H 1975 13425 50  0001 C CNN
+F 1 "GND" H 1980 13502 50  0000 C CNN
+F 2 "" H 1975 13675 50  0001 C CNN
+F 3 "" H 1975 13675 50  0001 C CNN
+	1    1975 13675
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 13570 2400 13650
-Connection ~ 2400 13570
 $Comp
 L 74xx:74HC595 U4
 U 1 1 5E345B4A
@@ -4645,7 +4462,7 @@ U 1 1 5E6090D3
 P 1790 15010
 AR Path="/5E6090D3" Ref="R1"  Part="1" 
 AR Path="/5D3C2445/5E6090D3" Ref="R?"  Part="1" 
-F 0 "R1" V 1690 15110 50  0000 R CNN
+F 0 "R1" V 1700 15300 50  0000 R CNN
 F 1 "33R" V 1690 15010 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1720 15010 50  0001 C CNN
 F 3 "~" H 1790 15010 50  0001 C CNN
@@ -4749,7 +4566,7 @@ U 1 1 5E6AD908
 P 4130 14920
 AR Path="/5E6AD908" Ref="R20"  Part="1" 
 AR Path="/5D3C2445/5E6AD908" Ref="R?"  Part="1" 
-F 0 "R20" V 4030 15020 50  0000 R CNN
+F 0 "R20" V 3975 15150 50  0000 R CNN
 F 1 "33R" V 4030 14920 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4060 14920 50  0001 C CNN
 F 3 "~" H 4130 14920 50  0001 C CNN
@@ -4809,8 +4626,6 @@ $EndComp
 Wire Wire Line
 	4680 15120 4680 15200
 Connection ~ 4680 15120
-Text Label 4270 13030 0    50   ~ 0
-S3
 $Comp
 L Device:R R23
 U 1 1 5E756112
@@ -4853,7 +4668,7 @@ U 1 1 5E75612A
 P 4020 13330
 AR Path="/5E75612A" Ref="R19"  Part="1" 
 AR Path="/5D3C2445/5E75612A" Ref="R?"  Part="1" 
-F 0 "R19" V 3920 13430 50  0000 R CNN
+F 0 "R19" V 3925 13550 50  0000 R CNN
 F 1 "33R" V 3920 13330 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3950 13330 50  0001 C CNN
 F 3 "~" H 4020 13330 50  0001 C CNN
@@ -5867,4 +5682,191 @@ Text Label 20800 8600 2    50   ~ 0
 LED12_OUT
 Text Label 22125 8100 0    50   ~ 0
 LED7-12_Output
+$Comp
+L Device:R R12
+U 1 1 5D51AA00
+P 1975 12850
+F 0 "R12" H 1905 12804 50  0000 R CNN
+F 1 "10K" H 1905 12895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1905 12850 50  0001 C CNN
+F 3 "~" H 1975 12850 50  0001 C CNN
+	1    1975 12850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5D691828
+P 1975 12650
+F 0 "#PWR0102" H 1975 12500 50  0001 C CNN
+F 1 "+5V" H 1990 12823 50  0000 C CNN
+F 2 "" H 1975 12650 50  0001 C CNN
+F 3 "" H 1975 12650 50  0001 C CNN
+	1    1975 12650
+	1    0    0    -1  
+$EndComp
+Text Label 4270 13030 0    50   ~ 0
+S3
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q3
+U 1 1 5D987B0E
+P 1975 13275
+F 0 "Q3" H 2075 13375 60  0000 L CNN
+F 1 "2N7002LT1G" H 2105 13275 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 2175 13475 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 2175 13575 60  0001 L CNN
+F 4 "2N7002LT1GOSCT-ND" H 2175 13675 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7002LT1G" H 2175 13775 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2175 13875 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 2175 13975 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 2175 14075 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 2175 14175 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 2175 14275 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 2175 14375 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2175 14475 60  0001 L CNN "Status"
+	1    1975 13275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5DC6F2A7
+P 1825 13575
+AR Path="/5DC6F2A7" Ref="R8"  Part="1" 
+AR Path="/5D3C2445/5DC6F2A7" Ref="R?"  Part="1" 
+F 0 "R8" V 1725 13675 50  0000 R CNN
+F 1 "100K" V 1735 13895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1755 13575 50  0001 C CNN
+F 3 "~" H 1825 13575 50  0001 C CNN
+	1    1825 13575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1975 13475 1975 13575
+Connection ~ 1975 13575
+Wire Wire Line
+	1975 13575 1975 13675
+Wire Wire Line
+	1675 13575 1600 13575
+Wire Wire Line
+	1600 13575 1600 13375
+Wire Wire Line
+	1600 13375 1675 13375
+$Comp
+L Device:R R3
+U 1 1 5DE9A181
+P 1450 13375
+AR Path="/5DE9A181" Ref="R3"  Part="1" 
+AR Path="/5D3C2445/5DE9A181" Ref="R?"  Part="1" 
+F 0 "R3" V 1370 13550 50  0000 R CNN
+F 1 "33R" V 1350 13375 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 13375 50  0001 C CNN
+F 3 "~" H 1450 13375 50  0001 C CNN
+	1    1450 13375
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1600 13375
+Wire Wire Line
+	1300 13375 850  13375
+Text Label 875  13375 0    50   ~ 0
+Switchs_S0
+Wire Wire Line
+	1975 13000 1975 13025
+Wire Wire Line
+	1975 12650 1975 12700
+Wire Wire Line
+	1575 13025 1975 13025
+Connection ~ 1975 13025
+Wire Wire Line
+	1975 13025 1975 13075
+Text Label 1600 13025 0    50   ~ 0
+S0
+Text GLabel 11573 6059 2    50   Input ~ 0
+VCC33_B
+Wire Wire Line
+	11523 6059 11573 6059
+Wire Wire Line
+	11473 6059 11523 6059
+Connection ~ 11523 6059
+Wire Wire Line
+	11523 6059 11523 6309
+Wire Wire Line
+	11273 6309 11523 6309
+$Comp
+L Device:C C?
+U 1 1 5D4441A2
+P 11123 6309
+AR Path="/5D3C2445/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DCBF0EA/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DD72B02/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DDB81A1/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DE8FB1A/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DEDAB2C/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DF29799/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DF7BF4B/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5DFD1EC3/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5E02C61B/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5E08B2E9/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5E0EDFEE/5D4441A2" Ref="C?"  Part="1" 
+AR Path="/5D4441A2" Ref="C8"  Part="1" 
+F 0 "C8" V 11173 6209 50  0000 R CNN
+F 1 "0.1uF" V 11173 6609 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11161 6159 50  0001 C CNN
+F 3 "~" H 11123 6309 50  0001 C CNN
+	1    11123 6309
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10523 6309 10523 6359
+Wire Wire Line
+	10523 6309 10973 6309
+Connection ~ 10523 6309
+Wire Wire Line
+	10023 6059 10523 6059
+Wire Wire Line
+	10773 6059 10523 6059
+Connection ~ 10523 6059
+Wire Wire Line
+	10523 6059 10523 6309
+$Comp
+L Device:R R2
+U 1 1 5DFB126D
+P 1830 11720
+AR Path="/5DFB126D" Ref="R2"  Part="1" 
+AR Path="/5D3C2445/5DFB126D" Ref="R?"  Part="1" 
+F 0 "R2" V 1700 11925 50  0000 R CNN
+F 1 "33R" V 1730 11720 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1760 11720 50  0001 C CNN
+F 3 "~" H 1830 11720 50  0001 C CNN
+	1    1830 11720
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4441AA
+P 10523 6359
+AR Path="/5D3C2445/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5D3F6A12/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5D3FDFBE/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5D403D60/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DCBF0EA/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DD72B02/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DDB81A1/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DE8FB1A/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DEDAB2C/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DF29799/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DF7BF4B/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DFD1EC3/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5E02C61B/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5E08B2E9/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5E0EDFEE/5D4441AA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4441AA" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 10523 6109 50  0001 C CNN
+F 1 "GND" H 10528 6186 50  0000 C CNN
+F 2 "" H 10523 6359 50  0001 C CNN
+F 3 "" H 10523 6359 50  0001 C CNN
+	1    10523 6359
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
