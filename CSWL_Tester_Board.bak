@@ -207,17 +207,6 @@ Wire Wire Line
 	1400 9650 850  9650
 Wire Wire Line
 	1400 9550 850  9550
-$Comp
-L power:+3.3V #PWR021
-U 1 1 5D4B955D
-P 3100 9850
-F 0 "#PWR021" H 3100 9700 50  0001 C CNN
-F 1 "+3.3V" H 3115 10023 50  0000 C CNN
-F 2 "" H 3100 9850 50  0001 C CNN
-F 3 "" H 3100 9850 50  0001 C CNN
-	1    3100 9850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 8100 2350 8100
 Wire Wire Line
@@ -461,17 +450,6 @@ Wire Wire Line
 	4350 9800 3800 9800
 Wire Wire Line
 	4350 9700 3800 9700
-$Comp
-L power:+3.3V #PWR036
-U 1 1 5D2B0B8E
-P 6050 10000
-F 0 "#PWR036" H 6050 9850 50  0001 C CNN
-F 1 "+3.3V" H 6065 10173 50  0000 C CNN
-F 2 "" H 6050 10000 50  0001 C CNN
-F 3 "" H 6050 10000 50  0001 C CNN
-	1    6050 10000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 8250 5300 8250
 Wire Wire Line
@@ -715,17 +693,6 @@ Wire Wire Line
 	7600 9700 7050 9700
 Wire Wire Line
 	7600 9600 7050 9600
-$Comp
-L power:+3.3V #PWR054
-U 1 1 5D331A4C
-P 9300 9900
-F 0 "#PWR054" H 9300 9750 50  0001 C CNN
-F 1 "+3.3V" H 9315 10073 50  0000 C CNN
-F 2 "" H 9300 9900 50  0001 C CNN
-F 3 "" H 9300 9900 50  0001 C CNN
-	1    9300 9900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x03_Male J10
 U 1 1 5D331A52
@@ -1004,7 +971,7 @@ P 4600 5450
 AR Path="/5D739BE7" Ref="R14"  Part="1" 
 AR Path="/5D3C2445/5D739BE7" Ref="R?"  Part="1" 
 F 0 "R14" V 4650 5300 50  0000 R CNN
-F 1 "1K" V 4650 5200 50  0000 R CNN
+F 1 "1K" V 4650 5150 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 5450 50  0001 C CNN
 F 3 "~" H 4600 5450 50  0001 C CNN
 	1    4600 5450
@@ -4713,12 +4680,12 @@ Wire Wire Line
 Wire Wire Line
 	900  12000 900  11750
 $Comp
-L Device:R R?
+L Device:R R74
 U 1 1 5E8F4398
 P 2500 11450
-AR Path="/5E8F4398" Ref="R?"  Part="1" 
+AR Path="/5E8F4398" Ref="R74"  Part="1" 
 AR Path="/5D3C2445/5E8F4398" Ref="R?"  Part="1" 
-F 0 "R?" V 2600 11550 50  0000 R CNN
+F 0 "R74" V 2600 11550 50  0000 R CNN
 F 1 "0R" V 2500 11450 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 11450 50  0001 C CNN
 F 3 "~" H 2500 11450 50  0001 C CNN
@@ -4726,12 +4693,12 @@ F 3 "~" H 2500 11450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R75
 U 1 1 5E8F4A6E
 P 2700 11550
-AR Path="/5E8F4A6E" Ref="R?"  Part="1" 
+AR Path="/5E8F4A6E" Ref="R75"  Part="1" 
 AR Path="/5D3C2445/5E8F4A6E" Ref="R?"  Part="1" 
-F 0 "R?" V 2800 11650 50  0000 R CNN
+F 0 "R75" V 2800 11650 50  0000 R CNN
 F 1 "0R" V 2700 11550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 11550 50  0001 C CNN
 F 3 "~" H 2700 11550 50  0001 C CNN
@@ -4739,12 +4706,12 @@ F 3 "~" H 2700 11550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R76
 U 1 1 5E8F4FE6
 P 4600 11350
-AR Path="/5E8F4FE6" Ref="R?"  Part="1" 
+AR Path="/5E8F4FE6" Ref="R76"  Part="1" 
 AR Path="/5D3C2445/5E8F4FE6" Ref="R?"  Part="1" 
-F 0 "R?" V 4700 11450 50  0000 R CNN
+F 0 "R76" V 4700 11450 50  0000 R CNN
 F 1 "0R" V 4600 11400 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 11350 50  0001 C CNN
 F 3 "~" H 4600 11350 50  0001 C CNN
@@ -4752,12 +4719,12 @@ F 3 "~" H 4600 11350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R77
 U 1 1 5E8F53A3
 P 4800 11500
-AR Path="/5E8F53A3" Ref="R?"  Part="1" 
+AR Path="/5E8F53A3" Ref="R77"  Part="1" 
 AR Path="/5D3C2445/5E8F53A3" Ref="R?"  Part="1" 
-F 0 "R?" V 4900 11600 50  0000 R CNN
+F 0 "R77" V 4900 11600 50  0000 R CNN
 F 1 "0R" V 4800 11500 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 11500 50  0001 C CNN
 F 3 "~" H 4800 11500 50  0001 C CNN
@@ -4794,4 +4761,95 @@ Wire Wire Line
 	4800 11650 5650 11650
 Wire Wire Line
 	5650 11650 5650 11600
+Text Label 3100 9850 0    50   ~ 0
+Vuart
+Text Label 6050 10000 0    50   ~ 0
+Vuart
+Text Label 9300 9900 0    50   ~ 0
+Vuart
+$Comp
+L Connector_Generic:Conn_01x01 J30
+U 1 1 5D3B5292
+P 18270 12020
+F 0 "J30" H 18350 12062 50  0000 L CNN
+F 1 "Fix hole" H 18350 11971 50  0000 L CNN
+F 2 "RuanProject:Local_Hole_D5.0mm_Drill3.5mm" H 18270 12020 50  0001 C CNN
+F 3 "~" H 18270 12020 50  0001 C CNN
+	1    18270 12020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J29
+U 1 1 5D3B8646
+P 18250 12254
+F 0 "J29" H 18330 12296 50  0000 L CNN
+F 1 "Fix hole" H 18330 12205 50  0000 L CNN
+F 2 "RuanProject:Local_Hole_D5.0mm_Drill3.5mm" H 18250 12254 50  0001 C CNN
+F 3 "~" H 18250 12254 50  0001 C CNN
+	1    18250 12254
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J28
+U 1 1 5D3B88D3
+P 18245 12523
+F 0 "J28" H 18325 12565 50  0000 L CNN
+F 1 "Fix hole" H 18325 12474 50  0000 L CNN
+F 2 "RuanProject:Local_Hole_D5.0mm_Drill3.5mm" H 18245 12523 50  0001 C CNN
+F 3 "~" H 18245 12523 50  0001 C CNN
+	1    18245 12523
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J21
+U 1 1 5D42F59E
+P 18239 12735
+F 0 "J21" H 18319 12777 50  0000 L CNN
+F 1 "Fix hole" H 18319 12686 50  0000 L CNN
+F 2 "RuanProject:Local_Hole_D5.0mm_Drill3.5mm" H 18239 12735 50  0001 C CNN
+F 3 "~" H 18239 12735 50  0001 C CNN
+	1    18239 12735
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18070 12020
+NoConn ~ 18050 12254
+NoConn ~ 18045 12523
+NoConn ~ 18039 12735
+$Comp
+L Connector:Conn_Coaxial_Power J?
+U 1 1 5D3D36E9
+P 20050 8325
+F 0 "J?" H 20138 8321 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 20138 8230 50  0001 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 20050 8275 50  0001 C CNN
+F 3 "~" H 20050 8275 50  0001 C CNN
+	1    20050 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 5D3D455F
+P 20050 8150
+F 0 "#PWR?" H 20050 8000 50  0001 C CNN
+F 1 "+5VA" H 20065 8323 50  0000 C CNN
+F 2 "" H 20050 8150 50  0001 C CNN
+F 3 "" H 20050 8150 50  0001 C CNN
+	1    20050 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20050 8150 20050 8225
+Wire Wire Line
+	20050 8525 20050 8675
+$Comp
+L power:GNDS #PWR?
+U 1 1 5D498121
+P 20050 8675
+F 0 "#PWR?" H 20050 8425 50  0001 C CNN
+F 1 "GNDS" H 20055 8502 50  0000 C CNN
+F 2 "" H 20050 8675 50  0001 C CNN
+F 3 "" H 20050 8675 50  0001 C CNN
+	1    20050 8675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
