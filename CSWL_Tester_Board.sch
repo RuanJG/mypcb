@@ -3159,9 +3159,9 @@ Wire Wire Line
 	15956 12204 16456 12204
 Wire Wire Line
 	15956 12304 16456 12304
-Text Label 15056 12104 0    50   ~ 0
+Text Label 15024 12304 0    50   ~ 0
 CSWL+
-Text Label 15046 12304 0    50   ~ 0
+Text Label 15001 12104 0    50   ~ 0
 CSWL-
 Text Label 16028 12304 0    50   ~ 0
 Uart4_RX
@@ -3517,17 +3517,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 4400 7000 4450
 $Comp
-L power:GND #PWR040
-U 1 1 5D7FDCB4
-P 7000 4500
-F 0 "#PWR040" H 7000 4250 50  0001 C CNN
-F 1 "GND" H 7005 4327 50  0000 C CNN
-F 2 "" H 7000 4500 50  0001 C CNN
-F 3 "" H 7000 4500 50  0001 C CNN
-	1    7000 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R22
 U 1 1 5D7C14A4
 P 7000 4250
@@ -3582,17 +3571,6 @@ Wire Wire Line
 	7450 4900 7850 4900
 Wire Wire Line
 	7000 5300 7000 5350
-$Comp
-L power:GND #PWR041
-U 1 1 5D9A9CFB
-P 7000 5400
-F 0 "#PWR041" H 7000 5150 50  0001 C CNN
-F 1 "GND" H 7005 5227 50  0000 C CNN
-F 2 "" H 7000 5400 50  0001 C CNN
-F 3 "" H 7000 5400 50  0001 C CNN
-	1    7000 5400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R23
 U 1 1 5D9A9D05
@@ -3650,17 +3628,6 @@ Wire Wire Line
 	7450 5900 7850 5900
 Wire Wire Line
 	7000 6300 7000 6350
-$Comp
-L power:GND #PWR042
-U 1 1 5D9EB318
-P 7000 6400
-F 0 "#PWR042" H 7000 6150 50  0001 C CNN
-F 1 "GND" H 7005 6227 50  0000 C CNN
-F 2 "" H 7000 6400 50  0001 C CNN
-F 3 "" H 7000 6400 50  0001 C CNN
-	1    7000 6400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R24
 U 1 1 5D9EB322
@@ -3990,13 +3957,13 @@ Wire Wire Line
 	15456 13004 14946 13004
 Wire Wire Line
 	14956 12804 14956 12704
-Text Label 14956 12904 0    50   ~ 0
-CSWL_VMeter+
 Text Label 14946 13004 0    50   ~ 0
+CSWL_VMeter+
+Text Label 14956 12904 0    50   ~ 0
 CSWL_VMeter-
-Text Label 15036 12704 0    50   ~ 0
+Text Label 15000 12504 0    50   ~ 0
 CSWL_IN+
-Text Label 15056 12504 0    50   ~ 0
+Text Label 15000 12704 0    50   ~ 0
 CSWL_IN-
 Wire Wire Line
 	21503 4591 21503 5471
@@ -4325,13 +4292,13 @@ Text Label 7800 1600 0    50   ~ 0
 USBDP
 Text Label 7800 1700 0    50   ~ 0
 USBDM
-Text Label 9800 2500 0    50   ~ 0
+Text Label 9800 3300 0    50   ~ 0
 GPA8
 Text Label 4050 4650 0    50   ~ 0
 GPB2
-Text Label 9800 2600 0    50   ~ 0
+Text Label 9800 2500 0    50   ~ 0
 GPB1
-Text Label 9800 2700 0    50   ~ 0
+Text Label 9800 2600 0    50   ~ 0
 GPB2
 Text Label 4050 5650 0    50   ~ 0
 GPB12
@@ -4341,13 +4308,13 @@ Text Label 4050 5850 0    50   ~ 0
 GPB14
 Text Label 4050 5950 0    50   ~ 0
 GPB15
-Text Label 9800 2800 0    50   ~ 0
-GPB12
 Text Label 9800 2900 0    50   ~ 0
-GPB13
+GPB12
 Text Label 9800 3000 0    50   ~ 0
-GPB14
+GPB13
 Text Label 9800 3100 0    50   ~ 0
+GPB14
+Text Label 9800 3200 0    50   ~ 0
 GPB15
 Wire Wire Line
 	2550 4450 2250 4450
@@ -4357,9 +4324,9 @@ Text Label 2250 4450 2    50   ~ 0
 GPC0
 Text Label 2250 4550 2    50   ~ 0
 GPC1
-Text Label 9800 3200 0    50   ~ 0
+Text Label 9800 2800 0    50   ~ 0
 GPC0
-Text Label 9800 3300 0    50   ~ 0
+Text Label 9800 2700 0    50   ~ 0
 GPC1
 $Comp
 L Connector_Generic:Conn_01x04 J26
@@ -4714,8 +4681,6 @@ F 3 "" H 20050 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20050 8150 20050 8225
-Wire Wire Line
 	20050 8525 20050 8675
 $Comp
 L power:GNDS #PWR036
@@ -4728,4 +4693,127 @@ F 3 "" H 20050 8675 50  0001 C CNN
 	1    20050 8675
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R62
+U 1 1 5D48ABA7
+P 20460 8212
+AR Path="/5D48ABA7" Ref="R62"  Part="1" 
+AR Path="/5D3C2445/5D48ABA7" Ref="R?"  Part="1" 
+F 0 "R62" H 20610 8162 50  0000 R CNN
+F 1 "100K" H 20710 8262 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20390 8212 50  0001 C CNN
+F 3 "~" H 20460 8212 50  0001 C CNN
+	1    20460 8212
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20050 8150 20050 8212
+Connection ~ 20050 8212
+Wire Wire Line
+	20050 8212 20050 8225
+$Comp
+L power:+5V #PWR054
+U 1 1 5D4EAFBE
+P 20707 8212
+F 0 "#PWR054" H 20707 8062 50  0001 C CNN
+F 1 "+5V" H 20722 8385 50  0000 C CNN
+F 2 "" H 20707 8212 50  0001 C CNN
+F 3 "" H 20707 8212 50  0001 C CNN
+	1    20707 8212
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20610 8212 20707 8212
+Wire Wire Line
+	20050 8212 20310 8212
+Text GLabel 7000 4500 0    50   Input ~ 0
+GNDA1
+Text GLabel 7000 5400 0    50   Input ~ 0
+GNDA2
+Text GLabel 7000 6400 0    50   Input ~ 0
+GNDA3
+$Comp
+L power:GND #PWR040
+U 1 1 5D4FB44A
+P 7336 4502
+F 0 "#PWR040" H 7336 4252 50  0001 C CNN
+F 1 "GND" H 7341 4329 50  0000 C CNN
+F 2 "" H 7336 4502 50  0001 C CNN
+F 3 "" H 7336 4502 50  0001 C CNN
+	1    7336 4502
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R68
+U 1 1 5D5BA1CC
+P 7150 4500
+AR Path="/5D5BA1CC" Ref="R68"  Part="1" 
+AR Path="/5D3C2445/5D5BA1CC" Ref="R?"  Part="1" 
+F 0 "R68" V 7058 4607 50  0000 R CNN
+F 1 "0R" V 7053 4495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 4500 50  0001 C CNN
+F 3 "~" H 7150 4500 50  0001 C CNN
+	1    7150 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4500 7336 4500
+Wire Wire Line
+	7336 4500 7336 4502
+$Comp
+L power:GND #PWR041
+U 1 1 5D67AD33
+P 7336 5402
+F 0 "#PWR041" H 7336 5152 50  0001 C CNN
+F 1 "GND" H 7341 5229 50  0000 C CNN
+F 2 "" H 7336 5402 50  0001 C CNN
+F 3 "" H 7336 5402 50  0001 C CNN
+	1    7336 5402
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R70
+U 1 1 5D67AD39
+P 7150 5400
+AR Path="/5D67AD39" Ref="R70"  Part="1" 
+AR Path="/5D3C2445/5D67AD39" Ref="R?"  Part="1" 
+F 0 "R70" V 7058 5507 50  0000 R CNN
+F 1 "0R" V 7053 5395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 5400 50  0001 C CNN
+F 3 "~" H 7150 5400 50  0001 C CNN
+	1    7150 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 5400 7336 5400
+Wire Wire Line
+	7336 5400 7336 5402
+$Comp
+L power:GND #PWR042
+U 1 1 5D79B31D
+P 7336 6402
+F 0 "#PWR042" H 7336 6152 50  0001 C CNN
+F 1 "GND" H 7341 6229 50  0000 C CNN
+F 2 "" H 7336 6402 50  0001 C CNN
+F 3 "" H 7336 6402 50  0001 C CNN
+	1    7336 6402
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R71
+U 1 1 5D79B323
+P 7150 6400
+AR Path="/5D79B323" Ref="R71"  Part="1" 
+AR Path="/5D3C2445/5D79B323" Ref="R?"  Part="1" 
+F 0 "R71" V 7058 6507 50  0000 R CNN
+F 1 "0R" V 7053 6395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 6400 50  0001 C CNN
+F 3 "~" H 7150 6400 50  0001 C CNN
+	1    7150 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 6400 7336 6400
+Wire Wire Line
+	7336 6400 7336 6402
 $EndSCHEMATC
