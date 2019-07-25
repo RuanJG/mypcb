@@ -855,8 +855,6 @@ F 3 "" H 1500 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1450 4150 1850 4150
-Wire Wire Line
 	1500 4250 1700 4250
 Text Label 2100 4250 0    50   ~ 0
 Uart5_RX
@@ -1380,32 +1378,8 @@ F 3 "" H 3550 1100 50  0001 C CNN
 	1    3550 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 1850 3800
 Wire Wire Line
 	2550 3800 2550 4050
-Wire Wire Line
-	1850 3800 2550 3800
-$Comp
-L Device:Crystal Y?
-U 1 1 5D1CFC39
-P 1850 4000
-AR Path="/5D3C2445/5D1CFC39" Ref="Y?"  Part="1" 
-AR Path="/5D3F6A12/5D1CFC39" Ref="Y?"  Part="1" 
-AR Path="/5D3FDFBE/5D1CFC39" Ref="Y?"  Part="1" 
-AR Path="/5D403D60/5D1CFC39" Ref="Y?"  Part="1" 
-AR Path="/5D1CFC39" Ref="Y1"  Part="1" 
-F 0 "Y1" V 1804 4131 50  0000 L CNN
-F 1 "8MHz" V 1895 4131 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 1850 4000 50  0001 C CNN
-F 3 "~" H 1850 4000 50  0001 C CNN
-	1    1850 4000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 3800 1850 3850
-Wire Wire Line
-	1450 3800 1850 3800
-Connection ~ 1850 4150
 Wire Wire Line
 	900  3800 1150 3800
 Wire Wire Line
@@ -1431,8 +1405,6 @@ $EndComp
 Wire Wire Line
 	900  4150 900  4250
 Connection ~ 900  4150
-Wire Wire Line
-	1850 4150 2550 4150
 $Comp
 L Device:C C?
 U 1 1 5D1CFC22
@@ -5113,4 +5085,59 @@ Wire Wire Line
 Connection ~ 11060 6838
 Wire Wire Line
 	11060 6838 11100 6838
+Wire Wire Line
+	1450 3800 1796 3800
+Wire Wire Line
+	1450 4150 1796 4150
+Wire Wire Line
+	1796 3832 1796 3800
+Connection ~ 1796 3800
+Wire Wire Line
+	1796 3800 2550 3800
+Wire Wire Line
+	1796 4132 1796 4150
+Connection ~ 1796 4150
+Wire Wire Line
+	1796 4150 2550 4150
+$Comp
+L power:GND #PWR071
+U 1 1 5D4F7301
+P 2092 3986
+F 0 "#PWR071" H 2092 3736 50  0001 C CNN
+F 1 "GND" H 2097 3813 50  0000 C CNN
+F 2 "" H 2092 3986 50  0001 C CNN
+F 3 "" H 2092 3986 50  0001 C CNN
+	1    2092 3986
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1996 3982 2092 3982
+Wire Wire Line
+	2092 3982 2092 3986
+$Comp
+L power:GND #PWR070
+U 1 1 5D56DD01
+P 1518 3986
+F 0 "#PWR070" H 1518 3736 50  0001 C CNN
+F 1 "GND" H 1523 3813 50  0000 C CNN
+F 2 "" H 1518 3986 50  0001 C CNN
+F 3 "" H 1518 3986 50  0001 C CNN
+	1    1518 3986
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5D40CF88
+P 1796 3982
+F 0 "Y1" V 1796 4226 50  0000 L CNN
+F 1 "Crystal_GND24" V 1841 4226 50  0001 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 1796 3982 50  0001 C CNN
+F 3 "~" H 1796 3982 50  0001 C CNN
+	1    1796 3982
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1596 3982 1518 3982
+Wire Wire Line
+	1518 3982 1518 3986
 $EndSCHEMATC
