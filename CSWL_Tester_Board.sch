@@ -4035,15 +4035,15 @@ Wire Wire Line
 	7100 3710 7100 2890
 Wire Wire Line
 	7100 2890 6690 2890
-Text Label 19840 3550 2    50   ~ 0
+Text Label 19410 3450 0    50   ~ 0
 Serial_nEN
-Text Label 19860 3650 2    50   ~ 0
+Text Label 19420 3550 0    50   ~ 0
 Shift_reg_lock
 Text Label 19800 3750 2    50   ~ 0
 Shift_reg_clear
-Text Label 19790 3350 2    50   ~ 0
+Text Label 19420 3640 0    50   ~ 0
 Serial_CLK
-Text Label 19810 3450 2    50   ~ 0
+Text Label 19400 3350 0    50   ~ 0
 Serial_Input
 Text Label 5350 1990 0    50   ~ 0
 Serial_Ouput

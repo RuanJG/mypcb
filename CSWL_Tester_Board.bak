@@ -4035,13 +4035,13 @@ Wire Wire Line
 	7100 3710 7100 2890
 Wire Wire Line
 	7100 2890 6690 2890
-Text Label 19840 3550 2    50   ~ 0
+Text Label 19420 3550 0    50   ~ 0
 Serial_nEN
-Text Label 19860 3650 2    50   ~ 0
+Text Label 19400 3350 0    50   ~ 0
 Shift_reg_lock
 Text Label 19800 3750 2    50   ~ 0
 Shift_reg_clear
-Text Label 19790 3350 2    50   ~ 0
+Text Label 19420 3640 0    50   ~ 0
 Serial_CLK
 Text Label 19810 3450 2    50   ~ 0
 Serial_Input
@@ -4201,7 +4201,7 @@ Wire Wire Line
 	16960 12320 17360 12320
 Wire Wire Line
 	16960 12420 17360 12420
-Text Label 17410 12620 2    50   ~ 0
+Text Label 15960 12820 0    50   ~ 0
 CSWL_VDD-
 Wire Wire Line
 	16960 12520 17410 12520
@@ -4217,7 +4217,7 @@ Text Label 14670 12710 0    50   ~ 0
 LED6-
 Text Label 14670 12610 0    50   ~ 0
 LED5-
-Text Label 17360 12320 2    50   ~ 0
+Text Label 16060 12420 0    50   ~ 0
 LED4-
 Text Label 14670 12410 0    50   ~ 0
 LED3-
@@ -4255,32 +4255,24 @@ Wire Wire Line
 	16960 12820 17460 12820
 Wire Wire Line
 	16960 12720 17460 12720
-Text Label 16010 12720 0    50   ~ 0
+Text Label 17410 12520 2    50   ~ 0
 CSWL_Vout+
-Text Label 17430 12720 2    50   ~ 0
+Text Label 17360 12320 2    50   ~ 0
 CSWL_Vout-
-Wire Wire Line
-	15960 12720 15960 12820
 Wire Wire Line
 	17460 12720 17460 12820
 Wire Wire Line
 	17460 13020 16960 13020
 Wire Wire Line
 	16960 12920 17460 12920
-Text Label 16060 12920 0    50   ~ 0
+Text Label 16998 12720 0    50   ~ 0
 CSWL_IN+
-Text Label 17360 13020 2    50   ~ 0
-CSWL_IN-
 Text Label 17350 12920 2    50   ~ 0
 CSWL_IN-
 Wire Wire Line
 	17460 13020 17460 12920
-Text Label 16060 13020 0    50   ~ 0
-CSWL_IN+
 Wire Wire Line
 	16460 13020 15960 13020
-Wire Wire Line
-	15960 12920 15960 13020
 Wire Wire Line
 	16460 12920 15960 12920
 Text Notes 15000 13690 0    118  ~ 24
@@ -4908,9 +4900,9 @@ Wire Wire Line
 	12190 15240 12470 15240
 Text Label 13720 12510 0    50   ~ 0
 LED11+
-Text Label 16060 12520 0    50   ~ 0
+Text Label 15960 12920 0    50   ~ 0
 TP300
-Text Label 17410 12520 2    50   ~ 0
+Text Label 15960 13020 0    50   ~ 0
 TP303
 Text Label 16080 13120 0    50   ~ 0
 TP306
@@ -5524,13 +5516,13 @@ Text Label 17410 13120 2    50   ~ 0
 TPXXX
 Text Label 8460 11330 0    50   ~ 0
 LED2+
-Text Label 16060 12620 0    50   ~ 0
+Text Label 15960 12720 0    50   ~ 0
 CSWL_VDD+
 Text Label 15020 12510 2    50   ~ 0
 LED11-
-Text Label 17360 12420 2    50   ~ 0
+Text Label 16060 12620 0    50   ~ 0
 LED12-
-Text Label 16060 12420 0    50   ~ 0
+Text Label 16060 12520 0    50   ~ 0
 LED12+
 $Comp
 L power:GND #PWR?
@@ -6858,4 +6850,8 @@ F 3 "" H 17700 2700 50  0001 C CNN
 	1    17700 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	17410 12620 17410 12520
+Wire Wire Line
+	17360 12420 17360 12320
 $EndSCHEMATC
