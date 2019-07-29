@@ -689,9 +689,9 @@ Wire Wire Line
 	21200 3350 21650 3350
 Text Label 21300 3150 0    50   ~ 0
 Switchs_S1
-Text Label 21300 3250 0    50   ~ 0
+Text Label 21650 3350 2    50   ~ 0
 Switchs_S2
-Text Label 21300 3350 0    50   ~ 0
+Text Label 21650 3450 2    50   ~ 0
 Switchs_S3
 Wire Wire Line
 	20140 12240 20640 12240
@@ -881,7 +881,7 @@ Text GLabel 19100 7575 1    50   Input ~ 0
 VCC33_A
 Text Label 11558 1400 0    50   ~ 0
 LED1_OUT
-Text Label 21300 3450 0    50   ~ 0
+Text Label 21650 3250 2    50   ~ 0
 Switchs_EN
 Text Label 21300 2950 0    50   ~ 0
 LED1-6_Output
@@ -4731,12 +4731,8 @@ Wire Wire Line
 	21200 3650 21650 3650
 Wire Wire Line
 	21200 3750 21675 3750
-Text Label 21250 3550 0    50   ~ 0
+Text Label 21674 3750 2    50   ~ 0
 LED_7-12_S0
-Text Label 21250 3650 0    50   ~ 0
-LED_7-12_S1
-Text Label 21250 3750 0    50   ~ 0
-LED_7-12_S2
 Text Label 20550 9000 0    50   ~ 0
 LED_7-12_S0
 Text Label 20550 9100 0    50   ~ 0
@@ -6854,4 +6850,8 @@ Wire Wire Line
 	17410 12620 17410 12520
 Wire Wire Line
 	17360 12420 17360 12320
+Text Label 21650 3650 2    50   ~ 0
+LED_7-12_S1
+Text Label 21650 3550 2    50   ~ 0
+LED_7-12_S2
 $EndSCHEMATC
