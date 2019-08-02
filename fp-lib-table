@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name digikey-footprints)(type KiCad)(uri "E:/My Project/KicadLib/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
-  (lib (name RuanProject)(type KiCad)(uri "E:/My Project/KicadLib/customized-library/RuanProject.pretty")(options "")(descr ""))
+  (lib (name CSWL_Tester_Pin_Board)(type KiCad)(uri ${KIPRJMOD}/CSWL_Tester_Pin_Board.pretty)(options "")(descr ""))
 )
