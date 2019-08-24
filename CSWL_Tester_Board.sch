@@ -1095,7 +1095,7 @@ F 3 "" H 5100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2250 5050 2    50   ~ 0
-Resistor_EN
+PC6
 Wire Wire Line
 	2550 5150 2250 5150
 Wire Wire Line
@@ -1103,7 +1103,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4950 2250 4950
 Text Label 2250 4950 2    50   ~ 0
-Shaver_EN
+PC5
 Wire Wire Line
 	3550 1900 3550 2550
 Connection ~ 3550 1900
@@ -1493,873 +1493,249 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    3250 4350
 	1    0    0    -1  
 $EndComp
-Text Label 18919 9417 0    50   ~ 0
+Text Label 16219 3867 0    50   ~ 0
 CSWL-
-Text Label 18919 9317 0    50   ~ 0
+Text Label 16219 3767 0    50   ~ 0
 CSWL+
 Wire Wire Line
-	18919 9417 19369 9417
+	16219 3867 16669 3867
 Wire Wire Line
-	18919 9317 19369 9317
+	16219 3767 16669 3767
 $Comp
 L Connector_Generic:Conn_01x02 J20
 U 1 1 5DD4E96D
-P 19569 9317
-F 0 "J20" H 19649 9309 50  0000 L CNN
-F 1 "Conn_01x02" H 19649 9218 50  0000 L CNN
-F 2 "RuanProject:KF129-2P" H 19569 9317 50  0001 C CNN
-F 3 "~" H 19569 9317 50  0001 C CNN
-	1    19569 9317
+P 16869 3767
+F 0 "J20" H 16949 3759 50  0000 L CNN
+F 1 "Conn_01x02" H 16949 3668 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 16869 3767 50  0001 C CNN
+F 3 "~" H 16869 3767 50  0001 C CNN
+	1    16869 3767
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R69
 U 1 1 5D25439F
-P 21450 1850
-F 0 "R69" H 21520 1896 50  0000 L CNN
-F 1 "PCAN2512E1000BST5" H 21520 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 21380 1850 50  0001 C CNN
-F 3 "~" H 21450 1850 50  0001 C CNN
-F 4 "RES SMD 100 OHM 0.1% 6W 2512" H 21450 1850 50  0001 C CNN "Detial"
-	1    21450 1850
-	0    -1   -1   0   
+P 21450 3050
+F 0 "R69" H 21520 3096 50  0000 L CNN
+F 1 "PCAN2512E1000BST5" H 21520 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 21380 3050 50  0001 C CNN
+F 3 "~" H 21450 3050 50  0001 C CNN
+F 4 "RES SMD 100 OHM 0.1% 6W 2512" H 21450 3050 50  0001 C CNN "Detial"
+	1    21450 3050
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	17350 1250 17350 2100
-Wire Wire Line
-	16950 1150 16950 2100
-Wire Wire Line
-	17350 1250 17500 1250
-Wire Wire Line
-	16950 1150 17500 1150
 $Comp
 L Connector_Generic:Conn_01x02 J18
 U 1 1 5DCC5C68
-P 17700 1150
-F 0 "J18" H 17780 1142 50  0000 L CNN
-F 1 "Conn_01x02" H 17780 1051 50  0000 L CNN
-F 2 "RuanProject:KF129-2P" H 17700 1150 50  0001 C CNN
-F 3 "~" H 17700 1150 50  0001 C CNN
-	1    17700 1150
+P 17550 750
+F 0 "J18" H 17630 742 50  0000 L CNN
+F 1 "Conn_01x02" H 17630 651 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 17550 750 50  0001 C CNN
+F 3 "~" H 17550 750 50  0001 C CNN
+	1    17550 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17550 4500 17550 5400
+	21650 3200 21650 3050
 Wire Wire Line
-	17150 4400 17150 5400
+	21650 3200 21800 3200
 Wire Wire Line
-	17550 4500 17700 4500
+	21250 3300 21250 3050
 Wire Wire Line
-	17150 4400 17700 4400
-$Comp
-L Connector_Generic:Conn_01x02 J19
-U 1 1 5DC3DDB3
-P 17900 4400
-F 0 "J19" H 17980 4392 50  0000 L CNN
-F 1 "Conn_01x02" H 17980 4301 50  0000 L CNN
-F 2 "RuanProject:KF129-2P" H 17900 4400 50  0001 C CNN
-F 3 "~" H 17900 4400 50  0001 C CNN
-	1    17900 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21650 1700 21650 1850
-Wire Wire Line
-	21650 1700 21800 1700
-Wire Wire Line
-	21250 1600 21250 1850
-Wire Wire Line
-	21250 1600 21800 1600
+	21250 3300 21800 3300
 $Comp
 L Connector_Generic:Conn_01x02 J22
 U 1 1 5DA1D252
-P 22000 1600
-F 0 "J22" H 22080 1592 50  0000 L CNN
-F 1 "Conn_01x02" H 22080 1501 50  0000 L CNN
-F 2 "RuanProject:KF129-2P" H 22000 1600 50  0001 C CNN
-F 3 "~" H 22000 1600 50  0001 C CNN
-	1    22000 1600
-	1    0    0    -1  
-$EndComp
-Text Label 17550 5300 0    50   ~ 0
-VMeter-
-Text Label 17050 6250 0    50   ~ 0
-CSWL+
-Text Label 17450 6250 0    50   ~ 0
-CSWL-
-Connection ~ 16150 6550
-Wire Wire Line
-	14500 7000 16150 7000
-Wire Wire Line
-	16150 6550 16150 7000
-Connection ~ 16300 6550
-Wire Wire Line
-	16150 6550 16300 6550
-$Comp
-L Device:R R50
-U 1 1 5D278498
-P 16000 6550
-AR Path="/5D278498" Ref="R50"  Part="1" 
-AR Path="/5D3C2445/5D278498" Ref="R?"  Part="1" 
-F 0 "R50" V 16150 6650 50  0000 R CNN
-F 1 "33R (NC)" V 16050 6650 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15930 6550 50  0001 C CNN
-F 3 "~" H 16000 6550 50  0001 C CNN
-	1    16000 6550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14500 6150 14500 7000
-Wire Wire Line
-	14500 5850 15200 5850
-Wire Wire Line
-	14750 5100 15200 5100
-Connection ~ 15200 5100
-$Comp
-L Device:R R41
-U 1 1 5D27848A
-P 14500 6000
-AR Path="/5D27848A" Ref="R41"  Part="1" 
-AR Path="/5D3C2445/5D27848A" Ref="R?"  Part="1" 
-F 0 "R41" H 14650 6050 50  0000 R CNN
-F 1 "33R" H 14850 6050 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14430 6000 50  0001 C CNN
-F 3 "~" H 14500 6000 50  0001 C CNN
-	1    14500 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15200 5850 15200 5900
-Connection ~ 15200 5850
-Wire Wire Line
-	15200 5100 15200 5400
-Wire Wire Line
-	14750 5600 14900 5600
-Connection ~ 14750 5600
-Wire Wire Line
-	14750 5450 14750 5600
-Wire Wire Line
-	14750 5100 14750 5150
-Wire Wire Line
-	14150 5600 14750 5600
-Wire Wire Line
-	15200 6200 15200 6350
-Wire Wire Line
-	15200 5800 15200 5850
-Wire Wire Line
-	15800 6350 15800 5100
-Wire Wire Line
-	15800 6550 15850 6550
-Connection ~ 16200 5100
-Wire Wire Line
-	16200 5100 15800 5100
-Wire Wire Line
-	14950 6550 14950 6650
-$Comp
-L power:GND #PWR059
-U 1 1 5D278471
-P 14950 6650
-F 0 "#PWR059" H 14950 6400 50  0001 C CNN
-F 1 "GND" H 14955 6477 50  0000 C CNN
-F 2 "" H 14950 6650 50  0001 C CNN
-F 3 "" H 14950 6650 50  0001 C CNN
-	1    14950 6650
-	1    0    0    -1  
-$EndComp
-Text Label 14200 5600 0    50   ~ 0
-Meter_EN
-$Comp
-L Device:R R43
-U 1 1 5D278466
-P 14750 5300
-AR Path="/5D278466" Ref="R43"  Part="1" 
-AR Path="/5D3C2445/5D278466" Ref="R?"  Part="1" 
-F 0 "R43" H 14650 5400 50  0000 R CNN
-F 1 "100K" H 14650 5300 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14680 5300 50  0001 C CNN
-F 3 "~" H 14750 5300 50  0001 C CNN
-	1    14750 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMG2301L Q3
-U 1 1 5D27845C
-P 15100 5600
-F 0 "Q3" H 15306 5554 50  0000 L CNN
-F 1 "DMG2301L" H 15306 5645 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15300 5525 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 15100 5600 50  0001 L CNN
-	1    15100 5600
+P 22000 3300
+F 0 "J22" H 22080 3292 50  0000 L CNN
+F 1 "Conn_01x02" H 22080 3201 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 22000 3300 50  0001 C CNN
+F 3 "~" H 22000 3300 50  0001 C CNN
+	1    22000 3300
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:R R46
-U 1 1 5D278452
-P 15200 6050
-AR Path="/5D278452" Ref="R46"  Part="1" 
-AR Path="/5D3C2445/5D278452" Ref="R?"  Part="1" 
-F 0 "R46" H 15150 6050 50  0000 R CNN
-F 1 "330R (NC)" H 15150 5950 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15130 6050 50  0001 C CNN
-F 3 "~" H 15200 6050 50  0001 C CNN
-	1    15200 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR061
-U 1 1 5D278448
-P 15200 5100
-F 0 "#PWR061" H 15200 4950 50  0001 C CNN
-F 1 "+3.3V" H 15215 5273 50  0000 C CNN
-F 2 "" H 15200 5100 50  0001 C CNN
-F 3 "" H 15200 5100 50  0001 C CNN
-	1    15200 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14950 6550 15200 6550
-Wire Wire Line
-	16300 6550 16300 6650
-Wire Wire Line
-	16300 6950 16650 6950
-$Comp
-L power:GNDS #PWR067
-U 1 1 5D27843B
-P 16650 7000
-F 0 "#PWR067" H 16650 6750 50  0001 C CNN
-F 1 "GNDS" H 16655 6827 50  0000 C CNN
-F 2 "" H 16650 7000 50  0001 C CNN
-F 3 "" H 16650 7000 50  0001 C CNN
-	1    16650 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16650 4900 16650 5100
-$Comp
-L power:+5VA #PWR066
-U 1 1 5D278430
-P 16650 4900
-F 0 "#PWR066" H 16650 4750 50  0001 C CNN
-F 1 "+5VA" H 16665 5073 50  0000 C CNN
-F 2 "" H 16650 4900 50  0001 C CNN
-F 3 "" H 16650 4900 50  0001 C CNN
-	1    16650 4900
-	1    0    0    -1  
-$EndComp
+Text Label 17550 5900 0    50   ~ 0
+VMeter-
+Text Label 17050 4950 0    50   ~ 0
+CSWL+
+Text Label 17450 4950 0    50   ~ 0
+CSWL-
 $Comp
 L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D3
 U 1 1 5D27841C
-P 16200 5650
-F 0 "D3" V 16100 5500 50  0000 L CNN
-F 1 "1N5819HW-7-F" V 15950 5450 50  0000 L CNN
-F 2 "digikey-footprints:SOD-123" H 16400 5850 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16400 5950 60  0001 L CNN
-F 4 "1N5819HW-FDICT-ND" H 16400 6050 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N5819HW-7-F" H 16400 6150 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16400 6250 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 16400 6350 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16400 6450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 16400 6550 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 16400 6650 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 16400 6750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16400 6850 60  0001 L CNN "Status"
-	1    16200 5650
-	0    1    1    0   
+P 16200 5550
+F 0 "D3" V 16100 5400 50  0000 L CNN
+F 1 "1N5819HW-7-F" V 15950 5350 50  0000 L CNN
+F 2 "RuanProject:D_SOD-123" H 16400 5750 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16400 5850 60  0001 L CNN
+F 4 "1N5819HW-FDICT-ND" H 16400 5950 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N5819HW-7-F" H 16400 6050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 16400 6150 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 16400 6250 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16400 6350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 16400 6450 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 16400 6550 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 16400 6650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 16400 6750 60  0001 L CNN "Status"
+	1    16200 5550
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	16200 5100 16200 5550
-Wire Wire Line
-	16300 6550 16350 6550
-Wire Wire Line
-	16650 6100 16650 6250
-Connection ~ 16650 6100
-Wire Wire Line
-	16200 6100 16650 6100
-Wire Wire Line
-	16200 5850 16200 6100
 Wire Wire Line
 	16200 5100 16650 5100
 Wire Wire Line
-	16650 5100 16650 5400
-Text Label 17150 5200 0    50   ~ 0
+	16200 6100 16650 6100
+Wire Wire Line
+	16650 6100 16650 5800
+Text Label 17150 6000 0    50   ~ 0
 VMeter+
 Wire Wire Line
-	17450 6000 17450 6300
+	17450 5200 17450 4900
 Wire Wire Line
-	17050 6000 17050 6300
-NoConn ~ 17350 5400
-NoConn ~ 16950 5400
+	17050 5200 17050 4900
+NoConn ~ 17350 5800
+NoConn ~ 16950 5800
 Wire Wire Line
-	16650 6950 16650 7000
-Connection ~ 16650 6950
-$Comp
-L Device:R R52
-U 1 1 5D2783F5
-P 16300 6800
-AR Path="/5D2783F5" Ref="R52"  Part="1" 
-AR Path="/5D3C2445/5D2783F5" Ref="R?"  Part="1" 
-F 0 "R52" H 16450 6750 50  0000 R CNN
-F 1 "100K" H 16550 6850 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16230 6800 50  0001 C CNN
-F 3 "~" H 16300 6800 50  0001 C CNN
-	1    16300 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16650 6000 16650 6100
-Connection ~ 16650 5100
+	16650 5200 16650 5100
 $Comp
 L Relay:G6SU-2 K3
 U 1 1 5D2783E8
-P 17050 5700
-F 0 "K3" H 17680 5746 50  0000 L CNN
-F 1 "G6SU-2 DC5" H 17680 5655 50  0000 L CNN
-F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 17700 5650 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 16850 5700 50  0001 C CNN
-	1    17050 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q6
-U 1 1 5D2783DE
-P 16650 6450
-F 0 "Q6" H 16900 6250 60  0000 L CNN
-F 1 "2N7002LT1G" H 16850 6400 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 16850 6650 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 16850 6750 60  0001 L CNN
-F 4 "2N7002LT1GOSCT-ND" H 16850 6850 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002LT1G" H 16850 6950 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16850 7050 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 16850 7150 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 16850 7250 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 16850 7350 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 16850 7450 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 16850 7550 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16850 7650 60  0001 L CNN "Status"
-	1    16650 6450
-	1    0    0    -1  
-$EndComp
-Connection ~ 15950 3250
-Wire Wire Line
-	14300 3700 15950 3700
-Wire Wire Line
-	15950 3250 15950 3700
-Connection ~ 16100 3250
-Wire Wire Line
-	15950 3250 16100 3250
-$Comp
-L Device:R R48
-U 1 1 5D3CEC61
-P 15800 3250
-AR Path="/5D3CEC61" Ref="R48"  Part="1" 
-AR Path="/5D3C2445/5D3CEC61" Ref="R?"  Part="1" 
-F 0 "R48" V 15950 3350 50  0000 R CNN
-F 1 "33R (NC)" V 15850 3350 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15730 3250 50  0001 C CNN
-F 3 "~" H 15800 3250 50  0001 C CNN
-	1    15800 3250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	20300 3400 20400 3400
-Connection ~ 20300 3400
-Wire Wire Line
-	18600 3850 20300 3850
-Wire Wire Line
-	20300 3400 20300 3850
-Connection ~ 20400 3400
-Wire Wire Line
-	20250 3400 20300 3400
-$Comp
-L Device:R R64
-U 1 1 5D395528
-P 20100 3400
-AR Path="/5D395528" Ref="R64"  Part="1" 
-AR Path="/5D3C2445/5D395528" Ref="R?"  Part="1" 
-F 0 "R64" V 20250 3500 50  0000 R CNN
-F 1 "33R (NC)" V 20150 3500 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20030 3400 50  0001 C CNN
-F 3 "~" H 20100 3400 50  0001 C CNN
-	1    20100 3400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14300 2850 14300 3700
-Wire Wire Line
-	14300 2550 15000 2550
-Wire Wire Line
-	14550 1800 15000 1800
-Connection ~ 15000 1800
-$Comp
-L Device:R R39
-U 1 1 5D29566D
-P 14300 2700
-AR Path="/5D29566D" Ref="R39"  Part="1" 
-AR Path="/5D3C2445/5D29566D" Ref="R?"  Part="1" 
-F 0 "R39" H 14450 2750 50  0000 R CNN
-F 1 "33R" H 14650 2750 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14230 2700 50  0001 C CNN
-F 3 "~" H 14300 2700 50  0001 C CNN
-	1    14300 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15000 2550 15000 2600
-Connection ~ 15000 2550
-Wire Wire Line
-	15000 1800 15000 2100
-Wire Wire Line
-	14550 2300 14700 2300
-Connection ~ 14550 2300
-Wire Wire Line
-	14550 2150 14550 2300
-Wire Wire Line
-	14550 1800 14550 1850
-Wire Wire Line
-	13950 2300 14550 2300
-Wire Wire Line
-	15000 2900 15000 3050
-Wire Wire Line
-	15000 2500 15000 2550
-Wire Wire Line
-	15600 3050 15600 1800
-Wire Wire Line
-	15600 3250 15650 3250
-Connection ~ 16000 1800
-Wire Wire Line
-	16000 1800 15600 1800
-Wire Wire Line
-	14750 3250 14750 3350
-$Comp
-L power:GND #PWR057
-U 1 1 5D295654
-P 14750 3350
-F 0 "#PWR057" H 14750 3100 50  0001 C CNN
-F 1 "GND" H 14755 3177 50  0000 C CNN
-F 2 "" H 14750 3350 50  0001 C CNN
-F 3 "" H 14750 3350 50  0001 C CNN
-	1    14750 3350
-	1    0    0    -1  
-$EndComp
-Text Label 14000 2300 0    50   ~ 0
-Shaver_EN
-$Comp
-L Device:R R42
-U 1 1 5D295649
-P 14550 2000
-AR Path="/5D295649" Ref="R42"  Part="1" 
-AR Path="/5D3C2445/5D295649" Ref="R?"  Part="1" 
-F 0 "R42" H 14450 2100 50  0000 R CNN
-F 1 "100K" H 14450 2000 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14480 2000 50  0001 C CNN
-F 3 "~" H 14550 2000 50  0001 C CNN
-	1    14550 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMG2301L Q2
-U 1 1 5D29563F
-P 14900 2300
-F 0 "Q2" H 15106 2254 50  0000 L CNN
-F 1 "DMG2301L" H 15106 2345 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15100 2225 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 14900 2300 50  0001 L CNN
-	1    14900 2300
+P 17050 5500
+F 0 "K3" H 17680 5546 50  0000 L CNN
+F 1 "G6SU-2 DC5" H 17680 5455 50  0000 L CNN
+F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 17700 5450 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 16850 5500 50  0001 C CNN
+	1    17050 5500
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:R R45
-U 1 1 5D295635
-P 15000 2750
-AR Path="/5D295635" Ref="R45"  Part="1" 
-AR Path="/5D3C2445/5D295635" Ref="R?"  Part="1" 
-F 0 "R45" H 14950 2750 50  0000 R CNN
-F 1 "330R (NC)" H 14950 2650 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14930 2750 50  0001 C CNN
-F 3 "~" H 15000 2750 50  0001 C CNN
-	1    15000 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR060
-U 1 1 5D29562B
-P 15000 1800
-F 0 "#PWR060" H 15000 1650 50  0001 C CNN
-F 1 "+3.3V" H 15015 1973 50  0000 C CNN
-F 2 "" H 15000 1800 50  0001 C CNN
-F 3 "" H 15000 1800 50  0001 C CNN
-	1    15000 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14750 3250 15000 3250
-Wire Wire Line
-	16100 3250 16100 3350
-Wire Wire Line
-	16100 3650 16450 3650
+Text Label 13950 1850 0    50   ~ 0
+PC5
 $Comp
 L power:GNDS #PWR065
 U 1 1 5D2955FD
-P 16450 3700
-F 0 "#PWR065" H 16450 3450 50  0001 C CNN
-F 1 "GNDS" H 16455 3527 50  0000 C CNN
-F 2 "" H 16450 3700 50  0001 C CNN
-F 3 "" H 16450 3700 50  0001 C CNN
-	1    16450 3700
+P 15250 3650
+F 0 "#PWR065" H 15250 3400 50  0001 C CNN
+F 1 "GNDS" H 15255 3477 50  0000 C CNN
+F 2 "" H 15250 3650 50  0001 C CNN
+F 3 "" H 15250 3650 50  0001 C CNN
+	1    15250 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16450 1600 16450 1800
 $Comp
 L power:+5VA #PWR064
 U 1 1 5D2955F2
-P 16450 1600
-F 0 "#PWR064" H 16450 1450 50  0001 C CNN
-F 1 "+5VA" H 16465 1773 50  0000 C CNN
-F 2 "" H 16450 1600 50  0001 C CNN
-F 3 "" H 16450 1600 50  0001 C CNN
-	1    16450 1600
-	1    0    0    -1  
+P 15200 2950
+F 0 "#PWR064" H 15200 2800 50  0001 C CNN
+F 1 "+5VA" H 15215 3123 50  0000 C CNN
+F 2 "" H 15200 2950 50  0001 C CNN
+F 3 "" H 15200 2950 50  0001 C CNN
+	1    15200 2950
+	1    0    0    1   
 $EndComp
 $Comp
 L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D2
 U 1 1 5D2955DE
-P 16000 2350
-F 0 "D2" V 15900 2200 50  0000 L CNN
-F 1 "1N5819HW-7-F" V 15750 2150 50  0000 L CNN
-F 2 "digikey-footprints:SOD-123" H 16200 2550 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16200 2650 60  0001 L CNN
-F 4 "1N5819HW-FDICT-ND" H 16200 2750 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N5819HW-7-F" H 16200 2850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16200 2950 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 16200 3050 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16200 3150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 16200 3250 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 16200 3350 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 16200 3450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16200 3550 60  0001 L CNN "Status"
-	1    16000 2350
+P 15850 1950
+F 0 "D2" V 15750 1800 50  0000 L CNN
+F 1 "1N5819HW-7-F" V 15600 1750 50  0000 L CNN
+F 2 "RuanProject:D_SOD-123" H 16050 2150 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16050 2250 60  0001 L CNN
+F 4 "1N5819HW-FDICT-ND" H 16050 2350 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N5819HW-7-F" H 16050 2450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 16050 2550 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 16050 2650 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16050 2750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 16050 2850 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 16050 2950 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 16050 3050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 16050 3150 60  0001 L CNN "Status"
+	1    15850 1950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	16000 1800 16000 2250
+	15850 2400 16300 2400
 Wire Wire Line
-	16100 3250 16150 3250
+	15850 1400 16300 1400
 Wire Wire Line
-	16450 2800 16450 2950
-Connection ~ 16450 2800
-Wire Wire Line
-	16000 2800 16450 2800
-Wire Wire Line
-	16000 2550 16000 2800
-Wire Wire Line
-	16000 1800 16450 1800
-Wire Wire Line
-	16450 1800 16450 2100
-Text Label 17350 1900 0    50   ~ 0
+	16300 1400 16300 1700
+Text Label 17200 1500 0    50   ~ 0
 Shaver-
-Text Label 16950 1900 0    50   ~ 0
+Text Label 16800 1500 0    50   ~ 0
 Shaver+
-Text Label 17250 2950 0    50   ~ 0
+Text Label 17100 2550 0    50   ~ 0
 CSWL-
-Text Label 16850 2950 0    50   ~ 0
+Text Label 16700 2550 0    50   ~ 0
 CSWL+
 Wire Wire Line
-	17250 2700 17250 3000
+	17100 2300 17100 2600
 Wire Wire Line
-	16850 2700 16850 3000
-NoConn ~ 17150 2100
-NoConn ~ 16750 2100
+	16700 2300 16700 2600
 Wire Wire Line
-	16450 3650 16450 3700
-Connection ~ 16450 3650
-$Comp
-L Device:R R51
-U 1 1 5D2955B7
-P 16100 3500
-AR Path="/5D2955B7" Ref="R51"  Part="1" 
-AR Path="/5D3C2445/5D2955B7" Ref="R?"  Part="1" 
-F 0 "R51" H 16250 3450 50  0000 R CNN
-F 1 "100K" H 16350 3550 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16030 3500 50  0001 C CNN
-F 3 "~" H 16100 3500 50  0001 C CNN
-	1    16100 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16450 3350 16450 3598
-Wire Wire Line
-	16450 2700 16450 2800
-Connection ~ 16450 1800
+	16300 2300 16300 2400
 $Comp
 L Relay:G6SU-2 K2
 U 1 1 5D2955A0
-P 16850 2400
-F 0 "K2" H 17480 2446 50  0000 L CNN
-F 1 "G6SU-2 DC5" H 17480 2355 50  0000 L CNN
-F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 17500 2350 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 16650 2400 50  0001 C CNN
-	1    16850 2400
+P 16700 2000
+F 0 "K2" H 17330 2046 50  0000 L CNN
+F 1 "G6SU-2 DC5" H 17330 1955 50  0000 L CNN
+F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 17350 1950 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 16500 2000 50  0001 C CNN
+	1    16700 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q5
-U 1 1 5D295596
-P 16450 3150
-F 0 "Q5" H 16700 2950 60  0000 L CNN
-F 1 "2N7002LT1G" H 16650 3100 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 16650 3350 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 16650 3450 60  0001 L CNN
-F 4 "2N7002LT1GOSCT-ND" H 16650 3550 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002LT1G" H 16650 3650 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16650 3750 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 16650 3850 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 16650 3950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 16650 4050 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 16650 4150 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 16650 4250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16650 4350 60  0001 L CNN "Status"
-	1    16450 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18600 3000 18600 3850
-Wire Wire Line
-	18600 2700 19300 2700
-Wire Wire Line
-	18850 1950 19300 1950
-Connection ~ 19300 1950
-$Comp
-L Device:R R55
-U 1 1 5DA803E0
-P 18600 2850
-AR Path="/5DA803E0" Ref="R55"  Part="1" 
-AR Path="/5D3C2445/5DA803E0" Ref="R?"  Part="1" 
-F 0 "R55" H 18750 2900 50  0000 R CNN
-F 1 "33R" H 18950 2900 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 18530 2850 50  0001 C CNN
-F 3 "~" H 18600 2850 50  0001 C CNN
-	1    18600 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19300 2700 19300 2750
-Connection ~ 19300 2700
-Wire Wire Line
-	19300 1950 19300 2250
-Wire Wire Line
-	18850 2450 19000 2450
-Connection ~ 18850 2450
-Wire Wire Line
-	18850 2300 18850 2450
-Wire Wire Line
-	18850 1950 18850 2000
-Wire Wire Line
-	18250 2450 18850 2450
-Wire Wire Line
-	19300 3050 19300 3200
-Wire Wire Line
-	19300 2650 19300 2700
-Wire Wire Line
-	19900 3200 19900 1950
-Wire Wire Line
-	19900 3400 19950 3400
-Connection ~ 20300 1950
-Wire Wire Line
-	20300 1950 19900 1950
-Wire Wire Line
-	19050 3400 19050 3500
-$Comp
-L power:GND #PWR073
-U 1 1 5D816231
-P 19050 3500
-F 0 "#PWR073" H 19050 3250 50  0001 C CNN
-F 1 "GND" H 19055 3327 50  0000 C CNN
-F 2 "" H 19050 3500 50  0001 C CNN
-F 3 "" H 19050 3500 50  0001 C CNN
-	1    19050 3500
-	1    0    0    -1  
-$EndComp
-Text Label 18300 2450 0    50   ~ 0
-Resistor_EN
-$Comp
-L Device:R R58
-U 1 1 5D6C3C53
-P 18850 2150
-AR Path="/5D6C3C53" Ref="R58"  Part="1" 
-AR Path="/5D3C2445/5D6C3C53" Ref="R?"  Part="1" 
-F 0 "R58" H 18750 2250 50  0000 R CNN
-F 1 "100K" H 18750 2150 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 18780 2150 50  0001 C CNN
-F 3 "~" H 18850 2150 50  0001 C CNN
-	1    18850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMG2301L Q8
-U 1 1 5D663522
-P 19200 2450
-F 0 "Q8" H 19406 2404 50  0000 L CNN
-F 1 "DMG2301L" H 19406 2495 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 19400 2375 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 19200 2450 50  0001 L CNN
-	1    19200 2450
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R61
-U 1 1 5D4CDDBC
-P 19300 2900
-AR Path="/5D4CDDBC" Ref="R61"  Part="1" 
-AR Path="/5D3C2445/5D4CDDBC" Ref="R?"  Part="1" 
-F 0 "R61" H 19250 2900 50  0000 R CNN
-F 1 "330R (NC)" H 19250 2800 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19230 2900 50  0001 C CNN
-F 3 "~" H 19300 2900 50  0001 C CNN
-	1    19300 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR076
-U 1 1 5D4B5C42
-P 19300 1950
-F 0 "#PWR076" H 19300 1800 50  0001 C CNN
-F 1 "+3.3V" H 19315 2123 50  0000 C CNN
-F 2 "" H 19300 1950 50  0001 C CNN
-F 3 "" H 19300 1950 50  0001 C CNN
-	1    19300 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 3400 19300 3400
-Wire Wire Line
-	20400 3400 20400 3500
-Wire Wire Line
-	20400 3800 20750 3800
-$Comp
-L power:GNDS #PWR081
-U 1 1 5D4112B7
-P 20750 3850
-F 0 "#PWR081" H 20750 3600 50  0001 C CNN
-F 1 "GNDS" H 20755 3677 50  0000 C CNN
-F 2 "" H 20750 3850 50  0001 C CNN
-F 3 "" H 20750 3850 50  0001 C CNN
-	1    20750 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20750 1750 20750 1950
-$Comp
-L power:+5VA #PWR080
-U 1 1 5D3F9DBF
-P 20750 1750
-F 0 "#PWR080" H 20750 1600 50  0001 C CNN
-F 1 "+5VA" H 20765 1923 50  0000 C CNN
-F 2 "" H 20750 1750 50  0001 C CNN
-F 3 "" H 20750 1750 50  0001 C CNN
-	1    20750 1750
-	1    0    0    -1  
-$EndComp
+Text Label 13950 1750 0    50   ~ 0
+PC6
 $Comp
 L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D5
 U 1 1 5D3F1932
-P 20300 2500
-F 0 "D5" V 20200 2350 50  0000 L CNN
-F 1 "1N5819HW-7-F" V 20050 2300 50  0000 L CNN
-F 2 "digikey-footprints:SOD-123" H 20500 2700 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20500 2800 60  0001 L CNN
-F 4 "1N5819HW-FDICT-ND" H 20500 2900 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N5819HW-7-F" H 20500 3000 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 20500 3100 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 20500 3200 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20500 3300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 20500 3400 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 20500 3500 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 20500 3600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 20500 3700 60  0001 L CNN "Status"
-	1    20300 2500
-	0    1    1    0   
+P 20300 2400
+F 0 "D5" V 20200 2250 50  0000 L CNN
+F 1 "1N5819HW-7-F" V 20050 2200 50  0000 L CNN
+F 2 "RuanProject:D_SOD-123" H 20500 2600 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20500 2700 60  0001 L CNN
+F 4 "1N5819HW-FDICT-ND" H 20500 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N5819HW-7-F" H 20500 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 20500 3000 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 20500 3100 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20500 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 20500 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 20500 3400 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 20500 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 20500 3600 60  0001 L CNN "Status"
+	1    20300 2400
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	20300 1950 20300 2400
-Wire Wire Line
-	20400 3400 20450 3400
-Wire Wire Line
-	20750 2950 20750 3100
-Connection ~ 20750 2950
-Wire Wire Line
-	20300 2950 20750 2950
-Wire Wire Line
-	20300 2700 20300 2950
 Wire Wire Line
 	20300 1950 20750 1950
 Wire Wire Line
-	20750 1950 20750 2250
-Text Label 21650 2050 0    50   ~ 0
+	20300 2950 20750 2950
+Wire Wire Line
+	20750 2950 20750 2650
+Text Label 21650 2850 0    50   ~ 0
 Resistor-
-Text Label 21250 2050 0    50   ~ 0
+Text Label 21250 2850 0    50   ~ 0
 Resistor+
-Text Label 21550 3100 0    50   ~ 0
+Text Label 21550 1800 0    50   ~ 0
 CSWL-
-Text Label 21150 3100 0    50   ~ 0
+Text Label 21150 1800 0    50   ~ 0
 CSWL+
 Wire Wire Line
-	21550 2850 21550 3150
+	21550 2050 21550 1750
 Wire Wire Line
-	21150 2850 21150 3150
-NoConn ~ 21450 2250
-NoConn ~ 21050 2250
+	21150 2050 21150 1750
+NoConn ~ 21450 2650
+NoConn ~ 21050 2650
 Wire Wire Line
-	20750 3800 20750 3850
-Connection ~ 20750 3800
-$Comp
-L Device:R R67
-U 1 1 5D3246CD
-P 20400 3650
-AR Path="/5D3246CD" Ref="R67"  Part="1" 
-AR Path="/5D3C2445/5D3246CD" Ref="R?"  Part="1" 
-F 0 "R67" H 20550 3600 50  0000 R CNN
-F 1 "100K" H 20650 3700 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20330 3650 50  0001 C CNN
-F 3 "~" H 20400 3650 50  0001 C CNN
-	1    20400 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20750 3500 20750 3760
-Wire Wire Line
-	20750 2850 20750 2950
-Connection ~ 20750 1950
+	20750 2050 20750 1950
 $Comp
 L Relay:G6SU-2 K5
 U 1 1 5D1D3AEE
-P 21150 2550
-F 0 "K5" H 21780 2596 50  0000 L CNN
-F 1 "G6SU-2 DC5" H 21780 2505 50  0000 L CNN
-F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 21800 2500 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 20950 2550 50  0001 C CNN
-	1    21150 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q11
-U 1 1 5D461DB9
-P 20750 3300
-F 0 "Q11" H 21000 3100 60  0000 L CNN
-F 1 "2N7002LT1G" H 20950 3250 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 20950 3500 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 20950 3600 60  0001 L CNN
-F 4 "2N7002LT1GOSCT-ND" H 20950 3700 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002LT1G" H 20950 3800 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 20950 3900 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 20950 4000 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 20950 4100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 20950 4200 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 20950 4300 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 20950 4400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 20950 4500 60  0001 L CNN "Status"
-	1    20750 3300
-	1    0    0    -1  
+P 21150 2350
+F 0 "K5" H 21780 2396 50  0000 L CNN
+F 1 "G6SU-2 DC5" H 21780 2305 50  0000 L CNN
+F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 21800 2300 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 20950 2350 50  0001 C CNN
+	1    21150 2350
+	1    0    0    1   
 $EndComp
 Text Notes 8650 1250 0    394  ~ 79
 Connect Board\n
@@ -2831,282 +2207,11 @@ Wire Wire Line
 Wire Wire Line
 	3100 11950 2900 11950
 Wire Wire Line
-	17150 7950 17150 8850
-Wire Wire Line
-	16750 7850 16750 8850
-Wire Wire Line
-	17150 7950 17300 7950
-Wire Wire Line
-	16750 7850 17300 7850
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5D28056F
-P 17500 7850
-F 0 "J17" H 17580 7842 50  0000 L CNN
-F 1 "Conn_01x02" H 17580 7751 50  0000 L CNN
-F 2 "RuanProject:KF129-2P" H 17500 7850 50  0001 C CNN
-F 3 "~" H 17500 7850 50  0001 C CNN
-	1    17500 7850
-	1    0    0    -1  
-$EndComp
-Text Label 17150 8750 0    50   ~ 0
-DC15V-
-Connection ~ 15750 10000
-Wire Wire Line
-	14100 10450 15750 10450
-Wire Wire Line
-	15750 10000 15750 10450
-Connection ~ 15900 10000
-Wire Wire Line
-	15750 10000 15900 10000
-$Comp
-L Device:R R47
-U 1 1 5D280581
-P 15600 10000
-AR Path="/5D280581" Ref="R47"  Part="1" 
-AR Path="/5D3C2445/5D280581" Ref="R?"  Part="1" 
-F 0 "R47" V 15750 10100 50  0000 R CNN
-F 1 "33R (NC)" V 15650 10100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15530 10000 50  0001 C CNN
-F 3 "~" H 15600 10000 50  0001 C CNN
-	1    15600 10000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14100 9600 14100 10450
-Wire Wire Line
-	14100 9300 14800 9300
-Wire Wire Line
-	14350 8550 14800 8550
-Connection ~ 14800 8550
-$Comp
-L Device:R R38
-U 1 1 5D28058F
-P 14100 9450
-AR Path="/5D28058F" Ref="R38"  Part="1" 
-AR Path="/5D3C2445/5D28058F" Ref="R?"  Part="1" 
-F 0 "R38" H 14250 9500 50  0000 R CNN
-F 1 "33R" H 14450 9500 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14030 9450 50  0001 C CNN
-F 3 "~" H 14100 9450 50  0001 C CNN
-	1    14100 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14800 9300 14800 9350
-Connection ~ 14800 9300
-Wire Wire Line
-	14800 8550 14800 8850
-Wire Wire Line
-	14350 9050 14500 9050
-Connection ~ 14350 9050
-Wire Wire Line
-	14350 8900 14350 9050
-Wire Wire Line
-	14350 8550 14350 8600
-Wire Wire Line
-	13750 9050 14350 9050
-Wire Wire Line
-	14800 9650 14800 9800
-Wire Wire Line
-	14800 9250 14800 9300
-Wire Wire Line
-	15400 9800 15400 8550
-Wire Wire Line
-	15400 10000 15450 10000
-Connection ~ 15800 8550
-Wire Wire Line
-	15800 8550 15400 8550
-Wire Wire Line
-	14550 10000 14550 10100
-$Comp
-L power:GND #PWR056
-U 1 1 5D2805A8
-P 14550 10100
-F 0 "#PWR056" H 14550 9850 50  0001 C CNN
-F 1 "GND" H 14555 9927 50  0000 C CNN
-F 2 "" H 14550 10100 50  0001 C CNN
-F 3 "" H 14550 10100 50  0001 C CNN
-	1    14550 10100
-	1    0    0    -1  
-$EndComp
-Text Label 13800 9050 0    50   ~ 0
-Power_EN
-$Comp
-L Device:R R40
-U 1 1 5D2805B3
-P 14350 8750
-AR Path="/5D2805B3" Ref="R40"  Part="1" 
-AR Path="/5D3C2445/5D2805B3" Ref="R?"  Part="1" 
-F 0 "R40" H 14250 8850 50  0000 R CNN
-F 1 "100K" H 14250 8750 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14280 8750 50  0001 C CNN
-F 3 "~" H 14350 8750 50  0001 C CNN
-	1    14350 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMG2301L Q1
-U 1 1 5D2805BD
-P 14700 9050
-F 0 "Q1" H 14906 9004 50  0000 L CNN
-F 1 "DMG2301L" H 14906 9095 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14900 8975 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 14700 9050 50  0001 L CNN
-	1    14700 9050
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R44
-U 1 1 5D2805C7
-P 14800 9500
-AR Path="/5D2805C7" Ref="R44"  Part="1" 
-AR Path="/5D3C2445/5D2805C7" Ref="R?"  Part="1" 
-F 0 "R44" H 14750 9500 50  0000 R CNN
-F 1 "330R (NC)" H 14750 9400 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14730 9500 50  0001 C CNN
-F 3 "~" H 14800 9500 50  0001 C CNN
-	1    14800 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR058
-U 1 1 5D2805D1
-P 14800 8550
-F 0 "#PWR058" H 14800 8400 50  0001 C CNN
-F 1 "+3.3V" H 14815 8723 50  0000 C CNN
-F 2 "" H 14800 8550 50  0001 C CNN
-F 3 "" H 14800 8550 50  0001 C CNN
-	1    14800 8550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14550 10000 14800 10000
-Wire Wire Line
-	15900 10000 15900 10100
-Wire Wire Line
-	15900 10400 16250 10400
-$Comp
-L power:GNDS #PWR063
-U 1 1 5D2805DE
-P 16250 10450
-F 0 "#PWR063" H 16250 10200 50  0001 C CNN
-F 1 "GNDS" H 16255 10277 50  0000 C CNN
-F 2 "" H 16250 10450 50  0001 C CNN
-F 3 "" H 16250 10450 50  0001 C CNN
-	1    16250 10450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16250 8350 16250 8550
-$Comp
-L power:+5VA #PWR062
-U 1 1 5D2805E9
-P 16250 8350
-F 0 "#PWR062" H 16250 8200 50  0001 C CNN
-F 1 "+5VA" H 16265 8523 50  0000 C CNN
-F 2 "" H 16250 8350 50  0001 C CNN
-F 3 "" H 16250 8350 50  0001 C CNN
-	1    16250 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D1
-U 1 1 5D280606
-P 15800 9100
-F 0 "D1" V 15700 8950 50  0000 L CNN
-F 1 "1N5819HW-7-F" V 15550 8900 50  0000 L CNN
-F 2 "digikey-footprints:SOD-123" H 16000 9300 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 16000 9400 60  0001 L CNN
-F 4 "jcet  B5819W " V 15800 9100 50  0001 C CNN "Alternative"
-	1    15800 9100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15800 8550 15800 9000
-Wire Wire Line
-	15900 10000 15950 10000
-Wire Wire Line
-	16250 9550 16250 9700
-Connection ~ 16250 9550
-Wire Wire Line
-	15800 9550 16250 9550
-Wire Wire Line
-	15800 9300 15800 9550
-Wire Wire Line
-	15800 8550 16250 8550
-Wire Wire Line
-	16250 8550 16250 8850
-Text Label 16750 8650 0    50   ~ 0
-DC15V+
-Wire Wire Line
-	17050 9450 17050 9750
-Wire Wire Line
-	16650 9450 16650 9750
-NoConn ~ 16950 8850
-NoConn ~ 16550 8850
-Wire Wire Line
-	16250 10400 16250 10450
-Connection ~ 16250 10400
-$Comp
-L Device:R R49
-U 1 1 5D28061F
-P 15900 10250
-AR Path="/5D28061F" Ref="R49"  Part="1" 
-AR Path="/5D3C2445/5D28061F" Ref="R?"  Part="1" 
-F 0 "R49" H 16050 10200 50  0000 R CNN
-F 1 "100K" H 16150 10300 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15830 10250 50  0001 C CNN
-F 3 "~" H 15900 10250 50  0001 C CNN
-	1    15900 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16250 10100 16250 10302
-Wire Wire Line
-	16250 9450 16250 9550
-Connection ~ 16250 8550
-$Comp
-L Relay:G6SU-2 K1
-U 1 1 5D28062C
-P 16650 9150
-F 0 "K1" H 17280 9196 50  0000 L CNN
-F 1 "G6SU-2 DC5" H 17280 9105 50  0000 L CNN
-F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 17300 9100 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 16450 9150 50  0001 C CNN
-	1    16650 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q4
-U 1 1 5D28063F
-P 16250 9900
-F 0 "Q4" H 16500 9700 60  0000 L CNN
-F 1 "2N7002LT1G" H 16450 9850 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 16450 10100 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 16450 10200 60  0001 L CNN
-F 4 "2N7002LT1GOSCT-ND" H 16450 10300 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002LT1G" H 16450 10400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16450 10500 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 16450 10600 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 16450 10700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 16450 10800 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 16450 10900 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 16450 11000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16450 11100 60  0001 L CNN "Status"
-	1    16250 9900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	3950 4250 4600 4250
 Wire Wire Line
 	3950 3950 4600 3950
 Wire Wire Line
 	3950 3850 4600 3850
-Text Label 16650 9650 0    50   ~ 0
-CSWL_IN+
-Text Label 17050 9650 0    50   ~ 0
-CSWL_IN-
 Wire Wire Line
 	14956 12104 15456 12104
 Wire Wire Line
@@ -3164,278 +2269,6 @@ F 3 "" H 16456 12004 50  0001 C CNN
 	1    16456 12004
 	1    0    0    -1  
 $EndComp
-Text Label 21903 5371 0    50   ~ 0
-VMeter-
-Connection ~ 20503 6621
-Wire Wire Line
-	18853 7071 20503 7071
-Wire Wire Line
-	20503 6621 20503 7071
-Connection ~ 20653 6621
-Wire Wire Line
-	20503 6621 20653 6621
-$Comp
-L Device:R R63
-U 1 1 5D48281E
-P 20353 6621
-AR Path="/5D48281E" Ref="R63"  Part="1" 
-AR Path="/5D3C2445/5D48281E" Ref="R?"  Part="1" 
-F 0 "R63" V 20503 6721 50  0000 R CNN
-F 1 "33R (NC)" V 20403 6721 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20283 6621 50  0001 C CNN
-F 3 "~" H 20353 6621 50  0001 C CNN
-	1    20353 6621
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	18853 6221 18853 7071
-Wire Wire Line
-	18853 5921 19553 5921
-Wire Wire Line
-	19103 5171 19553 5171
-Connection ~ 19553 5171
-$Comp
-L Device:R R54
-U 1 1 5D48282C
-P 18853 6071
-AR Path="/5D48282C" Ref="R54"  Part="1" 
-AR Path="/5D3C2445/5D48282C" Ref="R?"  Part="1" 
-F 0 "R54" H 19003 6121 50  0000 R CNN
-F 1 "33R" H 19203 6121 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 18783 6071 50  0001 C CNN
-F 3 "~" H 18853 6071 50  0001 C CNN
-	1    18853 6071
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19553 5921 19553 5971
-Connection ~ 19553 5921
-Wire Wire Line
-	19553 5171 19553 5471
-Wire Wire Line
-	19103 5671 19253 5671
-Connection ~ 19103 5671
-Wire Wire Line
-	19103 5521 19103 5671
-Wire Wire Line
-	19103 5171 19103 5221
-Wire Wire Line
-	18503 5671 19103 5671
-Wire Wire Line
-	19553 6271 19553 6421
-Wire Wire Line
-	19553 5871 19553 5921
-Wire Wire Line
-	20153 6421 20153 5171
-Wire Wire Line
-	20153 6621 20203 6621
-Connection ~ 20553 5171
-Wire Wire Line
-	20553 5171 20153 5171
-Wire Wire Line
-	19303 6621 19303 6721
-$Comp
-L power:GND #PWR072
-U 1 1 5D482845
-P 19303 6721
-F 0 "#PWR072" H 19303 6471 50  0001 C CNN
-F 1 "GND" H 19308 6548 50  0000 C CNN
-F 2 "" H 19303 6721 50  0001 C CNN
-F 3 "" H 19303 6721 50  0001 C CNN
-	1    19303 6721
-	1    0    0    -1  
-$EndComp
-Text Label 18553 5671 0    50   ~ 0
-CSWL_TO_Meter_EN
-$Comp
-L Device:R R57
-U 1 1 5D482850
-P 19103 5371
-AR Path="/5D482850" Ref="R57"  Part="1" 
-AR Path="/5D3C2445/5D482850" Ref="R?"  Part="1" 
-F 0 "R57" H 19003 5471 50  0000 R CNN
-F 1 "100K" H 19003 5371 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19033 5371 50  0001 C CNN
-F 3 "~" H 19103 5371 50  0001 C CNN
-	1    19103 5371
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMG2301L Q7
-U 1 1 5D48285A
-P 19453 5671
-F 0 "Q7" H 19659 5625 50  0000 L CNN
-F 1 "DMG2301L" H 19659 5716 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 19653 5596 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 19453 5671 50  0001 L CNN
-	1    19453 5671
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R60
-U 1 1 5D482864
-P 19553 6121
-AR Path="/5D482864" Ref="R60"  Part="1" 
-AR Path="/5D3C2445/5D482864" Ref="R?"  Part="1" 
-F 0 "R60" H 19503 6121 50  0000 R CNN
-F 1 "330R (NC)" H 19503 6021 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19483 6121 50  0001 C CNN
-F 3 "~" H 19553 6121 50  0001 C CNN
-	1    19553 6121
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR075
-U 1 1 5D48286E
-P 19553 5171
-F 0 "#PWR075" H 19553 5021 50  0001 C CNN
-F 1 "+3.3V" H 19568 5344 50  0000 C CNN
-F 2 "" H 19553 5171 50  0001 C CNN
-F 3 "" H 19553 5171 50  0001 C CNN
-	1    19553 5171
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19303 6621 19553 6621
-Wire Wire Line
-	20653 6621 20653 6721
-Wire Wire Line
-	20653 7021 21003 7021
-$Comp
-L power:GNDS #PWR079
-U 1 1 5D48287B
-P 21003 7071
-F 0 "#PWR079" H 21003 6821 50  0001 C CNN
-F 1 "GNDS" H 21008 6898 50  0000 C CNN
-F 2 "" H 21003 7071 50  0001 C CNN
-F 3 "" H 21003 7071 50  0001 C CNN
-	1    21003 7071
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21003 4971 21003 5171
-$Comp
-L power:+5VA #PWR078
-U 1 1 5D482886
-P 21003 4971
-F 0 "#PWR078" H 21003 4821 50  0001 C CNN
-F 1 "+5VA" H 21018 5144 50  0000 C CNN
-F 2 "" H 21003 4971 50  0001 C CNN
-F 3 "" H 21003 4971 50  0001 C CNN
-	1    21003 4971
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC817 U9
-U 1 1 5D482890
-P 19853 6521
-F 0 "U9" H 19853 6846 50  0000 C CNN
-F 1 "EL817-S1-A (NC)" H 19853 6755 50  0000 C CNN
-F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 19653 6321 50  0001 L CIN
-F 3 "" H 19853 6521 50  0001 L CNN
-F 4 "Taiwan Semiconductor Corporation  --  TPC817S1D RAG" H 19853 6521 50  0001 C CNN "alternative"
-	1    19853 6521
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D4
-U 1 1 5D4828A3
-P 20553 5721
-F 0 "D4" V 20453 5571 50  0000 L CNN
-F 1 "1N5819HW-7-F" V 20303 5521 50  0000 L CNN
-F 2 "digikey-footprints:SOD-123" H 20753 5921 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20753 6021 60  0001 L CNN
-F 4 "1N5819HW-FDICT-ND" H 20753 6121 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N5819HW-7-F" H 20753 6221 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 20753 6321 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 20753 6421 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20753 6521 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 20753 6621 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 20753 6721 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 20753 6821 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 20753 6921 60  0001 L CNN "Status"
-	1    20553 5721
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	20553 5171 20553 5621
-Wire Wire Line
-	20653 6621 20703 6621
-Wire Wire Line
-	21003 6171 21003 6321
-Connection ~ 21003 6171
-Wire Wire Line
-	20553 6171 21003 6171
-Wire Wire Line
-	20553 5921 20553 6171
-Wire Wire Line
-	20553 5171 21003 5171
-Wire Wire Line
-	21003 5171 21003 5471
-Text Label 21503 5271 0    50   ~ 0
-VMeter+
-Wire Wire Line
-	21803 6071 21803 6371
-Wire Wire Line
-	21403 6071 21403 6371
-NoConn ~ 21703 5471
-NoConn ~ 21303 5471
-Wire Wire Line
-	21003 7021 21003 7071
-Connection ~ 21003 7021
-$Comp
-L Device:R R66
-U 1 1 5D4828BC
-P 20653 6871
-AR Path="/5D4828BC" Ref="R66"  Part="1" 
-AR Path="/5D3C2445/5D4828BC" Ref="R?"  Part="1" 
-F 0 "R66" H 20803 6821 50  0000 R CNN
-F 1 "100K" H 20903 6921 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20583 6871 50  0001 C CNN
-F 3 "~" H 20653 6871 50  0001 C CNN
-	1    20653 6871
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21003 6721 21003 7021
-Wire Wire Line
-	21003 6071 21003 6171
-Connection ~ 21003 5171
-$Comp
-L Relay:G6SU-2 K4
-U 1 1 5D4828C9
-P 21403 5771
-F 0 "K4" H 22033 5817 50  0000 L CNN
-F 1 "G6SU-2 DC5" H 22033 5726 50  0000 L CNN
-F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 22053 5721 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 21203 5771 50  0001 C CNN
-	1    21403 5771
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:2N7002LT1G Q10
-U 1 1 5D4828DC
-P 21003 6521
-F 0 "Q10" H 21253 6321 60  0000 L CNN
-F 1 "2N7002LT1G" H 21203 6471 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 21203 6721 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 21203 6821 60  0001 L CNN
-F 4 "2N7002LT1GOSCT-ND" H 21203 6921 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002LT1G" H 21203 7021 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 21203 7121 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 21203 7221 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 21203 7321 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 21203 7421 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 0.115A SOT-23" H 21203 7521 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 21203 7621 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 21203 7721 60  0001 L CNN "Status"
-	1    21003 6521
-	1    0    0    -1  
-$EndComp
-Text Label 21403 6171 0    50   ~ 0
-CSWL_VMeter+
-Text Label 21803 6321 0    50   ~ 0
-CSWL_VMeter-
 Wire Wire Line
 	3950 3350 4550 3350
 Wire Wire Line
@@ -3567,7 +2400,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4850 2250 4850
 Text Label 2250 4850 2    50   ~ 0
-CSWL_TO_Meter_EN
+PC4
 Text Label 4050 3350 0    50   ~ 0
 GPA6_SPI1_MISO
 $Comp
@@ -3796,54 +2629,6 @@ Wire Wire Line
 	3950 5250 4500 5250
 Wire Wire Line
 	3950 5350 4500 5350
-$Comp
-L Isolator:PC817 U6
-U 1 1 5D2BAEBD
-P 15100 9900
-F 0 "U6" H 15100 10225 50  0000 C CNN
-F 1 "EL817-S1-A (NC)" H 15100 10134 50  0000 C CNN
-F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 14900 9700 50  0001 L CIN
-F 3 "" H 15100 9900 50  0001 L CNN
-F 4 "Taiwan Semiconductor Corporation  --  TPC817S1D RAG" H 15100 9900 50  0001 C CNN "alternative"
-	1    15100 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC817 U7
-U 1 1 5D2BBEDF
-P 15300 3150
-F 0 "U7" H 15300 3475 50  0000 C CNN
-F 1 "EL817-S1-A (NC)" H 15300 3384 50  0000 C CNN
-F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 15100 2950 50  0001 L CIN
-F 3 "" H 15300 3150 50  0001 L CNN
-F 4 "Taiwan Semiconductor Corporation  --  TPC817S1D RAG" H 15300 3150 50  0001 C CNN "alternative"
-	1    15300 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC817 U8
-U 1 1 5D2BC75A
-P 15500 6450
-F 0 "U8" H 15500 6775 50  0000 C CNN
-F 1 "EL817-S1-A (NC)" H 15500 6684 50  0000 C CNN
-F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 15300 6250 50  0001 L CIN
-F 3 "" H 15500 6450 50  0001 L CNN
-F 4 "Taiwan Semiconductor Corporation  --  TPC817S1D RAG" H 15500 6450 50  0001 C CNN "alternative"
-	1    15500 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC817 U10
-U 1 1 5D2BDD6A
-P 19600 3300
-F 0 "U10" H 19600 3625 50  0000 C CNN
-F 1 "EL817-S1-A (NC)" H 19600 3534 50  0000 C CNN
-F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 19400 3100 50  0001 L CIN
-F 3 "" H 19600 3300 50  0001 L CNN
-F 4 "Taiwan Semiconductor Corporation  --  TPC817S1D RAG" H 19600 3300 50  0001 C CNN "alternative"
-	1    19600 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14956 12104 14956 12204
 Wire Wire Line
@@ -3862,25 +2647,6 @@ Text Label 15000 12504 0    50   ~ 0
 CSWL_IN+
 Text Label 15000 12704 0    50   ~ 0
 CSWL_IN-
-Wire Wire Line
-	21503 4591 21503 5471
-Wire Wire Line
-	21903 4691 21903 5471
-$Comp
-L Connector_Generic:Conn_01x02 J24
-U 1 1 5D6A2FD4
-P 22253 4591
-F 0 "J24" H 22333 4583 50  0000 L CNN
-F 1 "Conn_01x02" H 22333 4492 50  0000 L CNN
-F 2 "RuanProject:KF129-2P" H 22253 4591 50  0001 C CNN
-F 3 "~" H 22253 4591 50  0001 C CNN
-	1    22253 4591
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21503 4591 22053 4591
-Wire Wire Line
-	21903 4691 22053 4691
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J16
 U 1 1 5D325CE2
@@ -3909,65 +2675,44 @@ LEDB_GB11
 Text Label 16026 12704 0    50   ~ 0
 LEDB_GB12
 Wire Wire Line
-	16650 6650 16650 6902
-Wire Wire Line
-	16866 6902 16650 6902
-Connection ~ 16650 6902
-Wire Wire Line
-	16650 6902 16650 6950
-Wire Wire Line
-	21137 7021 21003 7021
-Wire Wire Line
-	20954 3761 20751 3761
-Wire Wire Line
-	20751 3761 20751 3760
-Wire Wire Line
-	20751 3760 20750 3760
-Connection ~ 20750 3760
-Wire Wire Line
-	20750 3760 20750 3800
-Wire Wire Line
-	16970 3598 17120 3598
+	15770 3548 15920 3548
 $Comp
 L power:GND #PWR?
 U 1 1 5D612D94
-P 17120 3598
+P 15920 3548
 AR Path="/5D3C2445/5D612D94" Ref="#PWR?"  Part="1" 
 AR Path="/5D3F6A12/5D612D94" Ref="#PWR?"  Part="1" 
 AR Path="/5D3FDFBE/5D612D94" Ref="#PWR?"  Part="1" 
 AR Path="/5D403D60/5D612D94" Ref="#PWR?"  Part="1" 
 AR Path="/5D612D94" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 17120 3348 50  0001 C CNN
-F 1 "GND" H 17125 3425 50  0000 C CNN
-F 2 "" H 17120 3598 50  0001 C CNN
-F 3 "" H 17120 3598 50  0001 C CNN
-	1    17120 3598
+F 0 "#PWR0105" H 15920 3298 50  0001 C CNN
+F 1 "GND" H 15925 3375 50  0000 C CNN
+F 2 "" H 15920 3548 50  0001 C CNN
+F 3 "" H 15920 3548 50  0001 C CNN
+	1    15920 3548
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R65
 U 1 1 5D612D9A
-P 16820 3598
+P 15620 3548
 AR Path="/5D612D9A" Ref="R65"  Part="1" 
 AR Path="/5D3C2445/5D612D9A" Ref="R?"  Part="1" 
-F 0 "R65" V 16870 3448 50  0000 R CNN
-F 1 "0R" V 16870 3848 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16750 3598 50  0001 C CNN
-F 3 "~" H 16820 3598 50  0001 C CNN
-	1    16820 3598
+F 0 "R65" V 15670 3398 50  0000 R CNN
+F 1 "0R" V 15670 3798 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15550 3548 50  0001 C CNN
+F 3 "~" H 15620 3548 50  0001 C CNN
+	1    15620 3548
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	16670 3598 16450 3598
-Connection ~ 16450 3598
-Wire Wire Line
-	16450 3598 16450 3650
+	15470 3548 15250 3548
 Wire Wire Line
 	2550 5250 2250 5250
 Text Label 2250 5250 2    50   ~ 0
-Power_EN
+PC8
 Text Label 2250 5150 2    50   ~ 0
-Meter_EN
+PC7
 $Comp
 L Connector_Generic:Conn_01x03 J23
 U 1 1 5D6FAA6B
@@ -4342,11 +3087,6 @@ Wire Wire Line
 Wire Wire Line
 	16463 12404 16463 12403
 Wire Wire Line
-	16472 10302 16250 10302
-Connection ~ 16250 10302
-Wire Wire Line
-	16250 10302 16250 10400
-Wire Wire Line
 	1600 11750 900  11750
 NoConn ~ 1600 11250
 NoConn ~ 1600 11950
@@ -4361,15 +3101,15 @@ NoConn ~ 2550 5750
 NoConn ~ 2550 5850
 NoConn ~ 2550 5950
 Wire Wire Line
-	21300 1850 21250 1850
-Connection ~ 21250 1850
+	21300 3050 21250 3050
+Connection ~ 21250 3050
 Wire Wire Line
-	21250 1850 21250 2250
+	21250 3050 21250 2650
 Wire Wire Line
-	21600 1850 21650 1850
-Connection ~ 21650 1850
+	21600 3050 21650 3050
+Connection ~ 21650 3050
 Wire Wire Line
-	21650 1850 21650 2250
+	21650 3050 21650 2650
 Wire Wire Line
 	7350 3000 7350 3150
 Connection ~ 7350 3150
@@ -4558,71 +3298,54 @@ NoConn ~ 18039 12735
 $Comp
 L Connector:Conn_Coaxial_Power J31
 U 1 1 5D3D36E9
-P 20050 8325
-F 0 "J31" H 20138 8321 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 20138 8230 50  0001 L CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 20050 8275 50  0001 C CNN
-F 3 "~" H 20050 8275 50  0001 C CNN
-	1    20050 8325
+P 14250 3625
+F 0 "J31" H 14338 3621 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 14338 3530 50  0001 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 14250 3575 50  0001 C CNN
+F 3 "~" H 14250 3575 50  0001 C CNN
+	1    14250 3625
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5VA #PWR021
 U 1 1 5D3D455F
-P 20050 8150
-F 0 "#PWR021" H 20050 8000 50  0001 C CNN
-F 1 "+5VA" H 20065 8323 50  0000 C CNN
-F 2 "" H 20050 8150 50  0001 C CNN
-F 3 "" H 20050 8150 50  0001 C CNN
-	1    20050 8150
+P 14250 3450
+F 0 "#PWR021" H 14250 3300 50  0001 C CNN
+F 1 "+5VA" H 14265 3623 50  0000 C CNN
+F 2 "" H 14250 3450 50  0001 C CNN
+F 3 "" H 14250 3450 50  0001 C CNN
+	1    14250 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20050 8525 20050 8675
+	14250 3825 14250 3975
 $Comp
 L power:GNDS #PWR036
 U 1 1 5D498121
-P 20050 8675
-F 0 "#PWR036" H 20050 8425 50  0001 C CNN
-F 1 "GNDS" H 20055 8502 50  0000 C CNN
-F 2 "" H 20050 8675 50  0001 C CNN
-F 3 "" H 20050 8675 50  0001 C CNN
-	1    20050 8675
+P 14250 3975
+F 0 "#PWR036" H 14250 3725 50  0001 C CNN
+F 1 "GNDS" H 14255 3802 50  0000 C CNN
+F 2 "" H 14250 3975 50  0001 C CNN
+F 3 "" H 14250 3975 50  0001 C CNN
+	1    14250 3975
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R62
-U 1 1 5D48ABA7
-P 20460 8212
-AR Path="/5D48ABA7" Ref="R62"  Part="1" 
-AR Path="/5D3C2445/5D48ABA7" Ref="R?"  Part="1" 
-F 0 "R62" H 20610 8162 50  0000 R CNN
-F 1 "100K" H 20710 8262 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20390 8212 50  0001 C CNN
-F 3 "~" H 20460 8212 50  0001 C CNN
-	1    20460 8212
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	20050 8150 20050 8212
-Connection ~ 20050 8212
+	14250 3450 14250 3512
+Connection ~ 14250 3512
 Wire Wire Line
-	20050 8212 20050 8225
+	14250 3512 14250 3525
 $Comp
 L power:+5V #PWR054
 U 1 1 5D4EAFBE
-P 20707 8212
-F 0 "#PWR054" H 20707 8062 50  0001 C CNN
-F 1 "+5V" H 20722 8385 50  0000 C CNN
-F 2 "" H 20707 8212 50  0001 C CNN
-F 3 "" H 20707 8212 50  0001 C CNN
-	1    20707 8212
+P 14907 3512
+F 0 "#PWR054" H 14907 3362 50  0001 C CNN
+F 1 "+5V" H 14922 3685 50  0000 C CNN
+F 2 "" H 14907 3512 50  0001 C CNN
+F 3 "" H 14907 3512 50  0001 C CNN
+	1    14907 3512
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20610 8212 20707 8212
-Wire Wire Line
-	20050 8212 20310 8212
 Text GLabel 10250 7468 0    50   Input ~ 0
 GNDA1
 Text GLabel 6884 7082 0    50   Input ~ 0
@@ -5140,4 +3863,1102 @@ Wire Wire Line
 	1596 3982 1518 3982
 Wire Wire Line
 	1518 3982 1518 3986
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5D6B9F5A
+P 17550 1000
+F 0 "J19" H 17630 992 50  0000 L CNN
+F 1 "Conn_01x02" H 17630 901 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 17550 1000 50  0001 C CNN
+F 3 "~" H 17550 1000 50  0001 C CNN
+	1    17550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16800 850  17350 850 
+Wire Wire Line
+	16600 1700 16600 750 
+Wire Wire Line
+	16600 750  17350 750 
+Wire Wire Line
+	17000 1700 17000 1000
+Wire Wire Line
+	17000 1000 17350 1000
+Wire Wire Line
+	17200 1100 17350 1100
+Wire Wire Line
+	17200 1100 17200 1700
+Wire Wire Line
+	16800 850  16800 1700
+$Comp
+L RuanProject:L9110 U7
+U 1 1 5DA040BB
+P 15050 1700
+F 0 "U7" H 15125 1235 50  0000 C CNN
+F 1 "L9110" H 15125 1326 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 15050 1700 50  0001 C CNN
+F 3 "" H 15050 1700 50  0001 C CNN
+	1    15050 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 3548 15250 3650
+Wire Wire Line
+	15850 2400 15300 2400
+Wire Wire Line
+	15300 2400 15300 1950
+Wire Wire Line
+	15850 1400 15300 1400
+Wire Wire Line
+	15300 1400 15300 1650
+Wire Wire Line
+	15300 1750 15300 1800
+Wire Wire Line
+	15300 1800 15450 1800
+Connection ~ 15300 1800
+Wire Wire Line
+	15300 1800 15300 1850
+$Comp
+L Device:C C?
+U 1 1 5DFCA07D
+P 14750 2700
+AR Path="/5D3C2445/5DFCA07D" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5DFCA07D" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5DFCA07D" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5DFCA07D" Ref="C?"  Part="1" 
+AR Path="/5DFCA07D" Ref="C30"  Part="1" 
+F 0 "C30" H 14635 2654 50  0000 R CNN
+F 1 "10uF" H 14635 2745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14788 2550 50  0001 C CNN
+F 3 "~" H 14750 2700 50  0001 C CNN
+	1    14750 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DFCA8D0
+P 15100 2700
+AR Path="/5D3C2445/5DFCA8D0" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5DFCA8D0" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5DFCA8D0" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5DFCA8D0" Ref="C?"  Part="1" 
+AR Path="/5DFCA8D0" Ref="C33"  Part="1" 
+F 0 "C33" H 14985 2654 50  0000 R CNN
+F 1 "0.1uF" H 14985 2745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15138 2550 50  0001 C CNN
+F 3 "~" H 15100 2700 50  0001 C CNN
+	1    15100 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5DFCAB63
+P 14500 2700
+AR Path="/5DFCAB63" Ref="R39"  Part="1" 
+AR Path="/5D3C2445/5DFCAB63" Ref="R?"  Part="1" 
+F 0 "R39" H 14400 2800 50  0000 R CNN
+F 1 "100K" H 14400 2700 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14430 2700 50  0001 C CNN
+F 3 "~" H 14500 2700 50  0001 C CNN
+	1    14500 2700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14500 2850 14750 2850
+Wire Wire Line
+	15200 2850 15200 2950
+Connection ~ 14750 2850
+Wire Wire Line
+	14750 2850 15100 2850
+Connection ~ 15100 2850
+Wire Wire Line
+	15100 2850 15200 2850
+Wire Wire Line
+	15200 2850 15450 2850
+Wire Wire Line
+	15450 2850 15450 1800
+Connection ~ 15200 2850
+Wire Wire Line
+	14500 2550 14750 2550
+Connection ~ 14750 2550
+Wire Wire Line
+	14750 2550 15100 2550
+Wire Wire Line
+	14750 2550 14750 2450
+$Comp
+L power:GNDS #PWR060
+U 1 1 5E19A529
+P 14750 2450
+F 0 "#PWR060" H 14750 2200 50  0001 C CNN
+F 1 "GNDS" H 14755 2277 50  0000 C CNN
+F 2 "" H 14750 2450 50  0001 C CNN
+F 3 "" H 14750 2450 50  0001 C CNN
+	1    14750 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR057
+U 1 1 5E286251
+P 14450 1650
+F 0 "#PWR057" H 14450 1400 50  0001 C CNN
+F 1 "GNDS" H 14455 1477 50  0000 C CNN
+F 2 "" H 14450 1650 50  0001 C CNN
+F 3 "" H 14450 1650 50  0001 C CNN
+	1    14450 1650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14450 1950 14650 1950
+Wire Wire Line
+	14450 1950 14450 1650
+Wire Wire Line
+	14650 1650 14450 1650
+Connection ~ 14450 1650
+Wire Wire Line
+	14650 1850 13950 1850
+Wire Wire Line
+	14650 1750 13950 1750
+$Comp
+L power:+5VA #PWR077
+U 1 1 5EC29A58
+P 19650 1400
+F 0 "#PWR077" H 19650 1250 50  0001 C CNN
+F 1 "+5VA" H 19665 1573 50  0000 C CNN
+F 2 "" H 19650 1400 50  0001 C CNN
+F 3 "" H 19650 1400 50  0001 C CNN
+	1    19650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RuanProject:L9110 U10
+U 1 1 5EC29A63
+P 19500 2650
+F 0 "U10" H 19575 2185 50  0000 C CNN
+F 1 "L9110" H 19575 2276 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 19500 2650 50  0001 C CNN
+F 3 "" H 19500 2650 50  0001 C CNN
+	1    19500 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	20300 2950 19750 2950
+Wire Wire Line
+	19750 1950 19750 2400
+Wire Wire Line
+	20300 1950 19750 1950
+Wire Wire Line
+	19750 2950 19750 2700
+Wire Wire Line
+	19750 2600 19750 2550
+Wire Wire Line
+	19750 2550 19900 2550
+Connection ~ 19750 2550
+Wire Wire Line
+	19750 2550 19750 2500
+$Comp
+L Device:C C?
+U 1 1 5EC29A75
+P 19200 1650
+AR Path="/5D3C2445/5EC29A75" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5EC29A75" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5EC29A75" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5EC29A75" Ref="C?"  Part="1" 
+AR Path="/5EC29A75" Ref="C36"  Part="1" 
+F 0 "C36" H 19085 1604 50  0000 R CNN
+F 1 "10uF" H 19085 1695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19238 1500 50  0001 C CNN
+F 3 "~" H 19200 1650 50  0001 C CNN
+	1    19200 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EC29A7F
+P 19550 1650
+AR Path="/5D3C2445/5EC29A7F" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5EC29A7F" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5EC29A7F" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5EC29A7F" Ref="C?"  Part="1" 
+AR Path="/5EC29A7F" Ref="C39"  Part="1" 
+F 0 "C39" H 19435 1604 50  0000 R CNN
+F 1 "0.1uF" H 19435 1695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19588 1500 50  0001 C CNN
+F 3 "~" H 19550 1650 50  0001 C CNN
+	1    19550 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 5EC29A89
+P 18950 1650
+AR Path="/5EC29A89" Ref="R42"  Part="1" 
+AR Path="/5D3C2445/5EC29A89" Ref="R?"  Part="1" 
+F 0 "R42" H 18850 1750 50  0000 R CNN
+F 1 "100K" H 18850 1650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18880 1650 50  0001 C CNN
+F 3 "~" H 18950 1650 50  0001 C CNN
+	1    18950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18950 1500 19200 1500
+Wire Wire Line
+	19650 1500 19650 1400
+Connection ~ 19200 1500
+Wire Wire Line
+	19200 1500 19550 1500
+Connection ~ 19550 1500
+Wire Wire Line
+	19550 1500 19650 1500
+Wire Wire Line
+	19650 1500 19900 1500
+Wire Wire Line
+	19900 1500 19900 2550
+Connection ~ 19650 1500
+Wire Wire Line
+	18950 1800 19200 1800
+Connection ~ 19200 1800
+Wire Wire Line
+	19200 1800 19550 1800
+Wire Wire Line
+	19200 1800 19200 1900
+$Comp
+L power:GNDS #PWR074
+U 1 1 5EC29AA0
+P 19200 1900
+F 0 "#PWR074" H 19200 1650 50  0001 C CNN
+F 1 "GNDS" H 19205 1727 50  0000 C CNN
+F 2 "" H 19200 1900 50  0001 C CNN
+F 3 "" H 19200 1900 50  0001 C CNN
+	1    19200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR067
+U 1 1 5EC29AAA
+P 18900 2700
+F 0 "#PWR067" H 18900 2450 50  0001 C CNN
+F 1 "GNDS" H 18905 2527 50  0000 C CNN
+F 2 "" H 18900 2700 50  0001 C CNN
+F 3 "" H 18900 2700 50  0001 C CNN
+	1    18900 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18900 2400 19100 2400
+Wire Wire Line
+	18900 2400 18900 2700
+Wire Wire Line
+	19100 2700 18900 2700
+Connection ~ 18900 2700
+Wire Wire Line
+	19100 2500 18400 2500
+Wire Wire Line
+	19100 2600 18400 2600
+Connection ~ 20300 2950
+Connection ~ 20300 1950
+$Comp
+L power:+5VA #PWR063
+U 1 1 5F0D1476
+P 15550 4550
+F 0 "#PWR063" H 15550 4400 50  0001 C CNN
+F 1 "+5VA" H 15565 4723 50  0000 C CNN
+F 2 "" H 15550 4550 50  0001 C CNN
+F 3 "" H 15550 4550 50  0001 C CNN
+	1    15550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RuanProject:L9110 U8
+U 1 1 5F0D1481
+P 15400 5800
+F 0 "U8" H 15475 5335 50  0000 C CNN
+F 1 "L9110" H 15475 5426 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 15400 5800 50  0001 C CNN
+F 3 "" H 15400 5800 50  0001 C CNN
+	1    15400 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16200 6100 15650 6100
+Wire Wire Line
+	15650 5100 15650 5550
+Wire Wire Line
+	16200 5100 15650 5100
+Wire Wire Line
+	15650 6100 15650 5850
+Wire Wire Line
+	15650 5750 15650 5700
+Wire Wire Line
+	15650 5700 15800 5700
+Connection ~ 15650 5700
+Wire Wire Line
+	15650 5700 15650 5650
+$Comp
+L Device:C C?
+U 1 1 5F0D1493
+P 15100 4800
+AR Path="/5D3C2445/5F0D1493" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5F0D1493" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5F0D1493" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5F0D1493" Ref="C?"  Part="1" 
+AR Path="/5F0D1493" Ref="C32"  Part="1" 
+F 0 "C32" H 14985 4754 50  0000 R CNN
+F 1 "10uF" H 14985 4845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15138 4650 50  0001 C CNN
+F 3 "~" H 15100 4800 50  0001 C CNN
+	1    15100 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0D149D
+P 15450 4800
+AR Path="/5D3C2445/5F0D149D" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5F0D149D" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5F0D149D" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5F0D149D" Ref="C?"  Part="1" 
+AR Path="/5F0D149D" Ref="C34"  Part="1" 
+F 0 "C34" H 15335 4754 50  0000 R CNN
+F 1 "1uF" H 15335 4845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15488 4650 50  0001 C CNN
+F 3 "~" H 15450 4800 50  0001 C CNN
+	1    15450 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 5F0D14A7
+P 14850 4800
+AR Path="/5F0D14A7" Ref="R40"  Part="1" 
+AR Path="/5D3C2445/5F0D14A7" Ref="R?"  Part="1" 
+F 0 "R40" H 14750 4900 50  0000 R CNN
+F 1 "100K" H 14750 4800 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14780 4800 50  0001 C CNN
+F 3 "~" H 14850 4800 50  0001 C CNN
+	1    14850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 4650 15100 4650
+Wire Wire Line
+	15550 4650 15550 4550
+Connection ~ 15100 4650
+Wire Wire Line
+	15100 4650 15450 4650
+Connection ~ 15450 4650
+Wire Wire Line
+	15450 4650 15550 4650
+Wire Wire Line
+	15550 4650 15800 4650
+Wire Wire Line
+	15800 4650 15800 5700
+Connection ~ 15550 4650
+Wire Wire Line
+	14850 4950 15100 4950
+Connection ~ 15100 4950
+Wire Wire Line
+	15100 4950 15450 4950
+Wire Wire Line
+	15100 4950 15100 5050
+$Comp
+L power:GNDS #PWR061
+U 1 1 5F0D14BE
+P 15100 5050
+F 0 "#PWR061" H 15100 4800 50  0001 C CNN
+F 1 "GNDS" H 15105 4877 50  0000 C CNN
+F 2 "" H 15100 5050 50  0001 C CNN
+F 3 "" H 15100 5050 50  0001 C CNN
+	1    15100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR059
+U 1 1 5F0D14C8
+P 14800 5850
+F 0 "#PWR059" H 14800 5600 50  0001 C CNN
+F 1 "GNDS" H 14805 5677 50  0000 C CNN
+F 2 "" H 14800 5850 50  0001 C CNN
+F 3 "" H 14800 5850 50  0001 C CNN
+	1    14800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 5550 15000 5550
+Wire Wire Line
+	14800 5550 14800 5850
+Wire Wire Line
+	15000 5850 14800 5850
+Connection ~ 14800 5850
+Wire Wire Line
+	15000 5650 14300 5650
+Wire Wire Line
+	15000 5750 14300 5750
+Connection ~ 16200 6100
+Connection ~ 16200 5100
+$Comp
+L power:+5VA #PWR062
+U 1 1 5F718611
+P 15150 8000
+F 0 "#PWR062" H 15150 7850 50  0001 C CNN
+F 1 "+5VA" H 15165 8173 50  0000 C CNN
+F 2 "" H 15150 8000 50  0001 C CNN
+F 3 "" H 15150 8000 50  0001 C CNN
+	1    15150 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RuanProject:L9110 U6
+U 1 1 5F71861B
+P 15000 9250
+F 0 "U6" H 15075 8785 50  0000 C CNN
+F 1 "L9110" H 15075 8876 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 15000 9250 50  0001 C CNN
+F 3 "" H 15000 9250 50  0001 C CNN
+	1    15000 9250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15250 8550 15250 9000
+Wire Wire Line
+	15250 9550 15250 9300
+Wire Wire Line
+	15250 9200 15250 9150
+Wire Wire Line
+	15250 9150 15400 9150
+Connection ~ 15250 9150
+Wire Wire Line
+	15250 9150 15250 9100
+$Comp
+L Device:C C?
+U 1 1 5F71862D
+P 14700 8250
+AR Path="/5D3C2445/5F71862D" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5F71862D" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5F71862D" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5F71862D" Ref="C?"  Part="1" 
+AR Path="/5F71862D" Ref="C29"  Part="1" 
+F 0 "C29" H 14585 8204 50  0000 R CNN
+F 1 "10uF" H 14585 8295 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14738 8100 50  0001 C CNN
+F 3 "~" H 14700 8250 50  0001 C CNN
+	1    14700 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F718637
+P 15050 8250
+AR Path="/5D3C2445/5F718637" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5F718637" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5F718637" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5F718637" Ref="C?"  Part="1" 
+AR Path="/5F718637" Ref="C31"  Part="1" 
+F 0 "C31" H 14935 8204 50  0000 R CNN
+F 1 "1uF" H 14935 8295 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15088 8100 50  0001 C CNN
+F 3 "~" H 15050 8250 50  0001 C CNN
+	1    15050 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5F718641
+P 14450 8250
+AR Path="/5F718641" Ref="R38"  Part="1" 
+AR Path="/5D3C2445/5F718641" Ref="R?"  Part="1" 
+F 0 "R38" H 14350 8350 50  0000 R CNN
+F 1 "100K" H 14350 8250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14380 8250 50  0001 C CNN
+F 3 "~" H 14450 8250 50  0001 C CNN
+	1    14450 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 8100 14700 8100
+Wire Wire Line
+	15150 8100 15150 8000
+Connection ~ 14700 8100
+Wire Wire Line
+	14700 8100 15050 8100
+Connection ~ 15050 8100
+Wire Wire Line
+	15050 8100 15150 8100
+Wire Wire Line
+	15150 8100 15400 8100
+Wire Wire Line
+	15400 8100 15400 9150
+Connection ~ 15150 8100
+Wire Wire Line
+	14450 8400 14700 8400
+Connection ~ 14700 8400
+Wire Wire Line
+	14700 8400 15050 8400
+Wire Wire Line
+	14700 8400 14700 8500
+$Comp
+L power:GNDS #PWR058
+U 1 1 5F718658
+P 14700 8500
+F 0 "#PWR058" H 14700 8250 50  0001 C CNN
+F 1 "GNDS" H 14705 8327 50  0000 C CNN
+F 2 "" H 14700 8500 50  0001 C CNN
+F 3 "" H 14700 8500 50  0001 C CNN
+	1    14700 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR056
+U 1 1 5F718662
+P 14400 9300
+F 0 "#PWR056" H 14400 9050 50  0001 C CNN
+F 1 "GNDS" H 14405 9127 50  0000 C CNN
+F 2 "" H 14400 9300 50  0001 C CNN
+F 3 "" H 14400 9300 50  0001 C CNN
+	1    14400 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 9000 14600 9000
+Wire Wire Line
+	14400 9000 14400 9300
+Wire Wire Line
+	14600 9300 14400 9300
+Connection ~ 14400 9300
+Wire Wire Line
+	14600 9100 13900 9100
+Wire Wire Line
+	14600 9200 13900 9200
+$Comp
+L Connector_Generic:Conn_01x02 J32
+U 1 1 5F91B9FA
+P 21500 10550
+F 0 "J32" H 21580 10542 50  0000 L CNN
+F 1 "Conn_01x02" H 21580 10451 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 21500 10550 50  0001 C CNN
+F 3 "~" H 21500 10550 50  0001 C CNN
+	1    21500 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR076
+U 1 1 5F91BA27
+P 19650 9200
+F 0 "#PWR076" H 19650 9050 50  0001 C CNN
+F 1 "+5VA" H 19665 9373 50  0000 C CNN
+F 2 "" H 19650 9200 50  0001 C CNN
+F 3 "" H 19650 9200 50  0001 C CNN
+	1    19650 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RuanProject:L9110 U9
+U 1 1 5F91BA31
+P 19250 9400
+F 0 "U9" H 19325 8935 50  0000 C CNN
+F 1 "L9110" H 19325 9026 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 19250 9400 50  0001 C CNN
+F 3 "" H 19250 9400 50  0001 C CNN
+	1    19250 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19500 8700 19500 9150
+Wire Wire Line
+	19500 9700 19500 9450
+Wire Wire Line
+	19500 9350 19500 9300
+Wire Wire Line
+	19500 9300 19650 9300
+Connection ~ 19500 9300
+Wire Wire Line
+	19500 9300 19500 9250
+Wire Wire Line
+	19650 9300 19650 9200
+$Comp
+L power:GNDS #PWR066
+U 1 1 5F91BA78
+P 18650 9450
+F 0 "#PWR066" H 18650 9200 50  0001 C CNN
+F 1 "GNDS" H 18655 9277 50  0000 C CNN
+F 2 "" H 18650 9450 50  0001 C CNN
+F 3 "" H 18650 9450 50  0001 C CNN
+	1    18650 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18650 9150 18850 9150
+Wire Wire Line
+	18650 9150 18650 9450
+Wire Wire Line
+	18850 9450 18650 9450
+Connection ~ 18650 9450
+Wire Wire Line
+	18850 9250 18150 9250
+Wire Wire Line
+	18850 9350 18150 9350
+Text Label 18150 9350 0    50   ~ 0
+PC8
+Text Label 18150 9250 0    50   ~ 0
+PC4
+$Comp
+L Connector_Generic:Conn_01x02 J33
+U 1 1 5F98EA84
+P 21500 10800
+F 0 "J33" H 21580 10792 50  0000 L CNN
+F 1 "Conn_01x02" H 21580 10701 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 21500 10800 50  0001 C CNN
+F 3 "~" H 21500 10800 50  0001 C CNN
+	1    21500 10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21300 10800 20900 10800
+Wire Wire Line
+	21300 10900 20900 10900
+$Comp
+L Connector_Generic:Conn_01x02 J34
+U 1 1 5FF3D1A1
+P 21500 11100
+F 0 "J34" H 21580 11092 50  0000 L CNN
+F 1 "Conn_01x02" H 21580 11001 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 21500 11100 50  0001 C CNN
+F 3 "~" H 21500 11100 50  0001 C CNN
+	1    21500 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21300 11100 20900 11100
+Wire Wire Line
+	21300 11200 20900 11200
+Wire Wire Line
+	20900 10550 21300 10550
+Wire Wire Line
+	20900 10650 21300 10650
+Text Label 20900 10650 0    50   ~ 0
+DC12V+
+Text Label 20900 10550 0    50   ~ 0
+DC12_C
+Text Label 20900 10800 0    50   ~ 0
+DC12_N
+Text Label 20900 11100 0    50   ~ 0
+S_COM
+Text Label 20900 11200 0    50   ~ 0
+S_C
+Text Label 20900 10900 0    50   ~ 0
+S_N
+Wire Wire Line
+	17150 5800 17150 6000
+Wire Wire Line
+	17550 5800 17550 5900
+Wire Wire Line
+	16200 5350 16200 5100
+Wire Wire Line
+	14600 3500 14600 3512
+Wire Wire Line
+	16200 6100 16200 5650
+Wire Wire Line
+	15850 1400 15850 1850
+Wire Wire Line
+	15850 2150 15850 2400
+Wire Wire Line
+	20300 2950 20300 2500
+Wire Wire Line
+	20300 2200 20300 1950
+$Comp
+L Connector:Conn_01x02_Male J35
+U 1 1 603B7532
+P 14700 3300
+F 0 "J35" V 14762 3344 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 14853 3344 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 14700 3300 50  0001 C CNN
+F 3 "~" H 14700 3300 50  0001 C CNN
+	1    14700 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14250 3512 14600 3512
+Wire Wire Line
+	14700 3500 14700 3512
+Wire Wire Line
+	14700 3512 14907 3512
+Text Label 21903 5829 0    50   ~ 0
+VMeter-
+$Comp
+L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D4
+U 1 1 5D4828A3
+P 20553 5428
+F 0 "D4" V 20453 5278 50  0000 L CNN
+F 1 "1N5819HW-7-F" V 20303 5228 50  0000 L CNN
+F 2 "RuanProject:D_SOD-123" H 20753 5628 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20753 5728 60  0001 L CNN
+F 4 "1N5819HW-FDICT-ND" H 20753 5828 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N5819HW-7-F" H 20753 5928 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 20753 6028 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 20753 6128 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 20753 6228 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDICT-ND/815283" H 20753 6328 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 1A SOD123" H 20753 6428 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 20753 6528 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 20753 6628 60  0001 L CNN "Status"
+	1    20553 5428
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	20553 5029 21003 5029
+Wire Wire Line
+	20553 6029 21003 6029
+Wire Wire Line
+	21003 6029 21003 5729
+Text Label 21503 5929 0    50   ~ 0
+VMeter+
+Wire Wire Line
+	21803 5129 21803 4829
+NoConn ~ 21703 5729
+NoConn ~ 21303 5729
+Wire Wire Line
+	21003 5129 21003 5029
+$Comp
+L Relay:G6SU-2 K4
+U 1 1 5D4828C9
+P 21403 5429
+F 0 "K4" H 22033 5475 50  0000 L CNN
+F 1 "G6SU-2 DC5" H 22033 5384 50  0000 L CNN
+F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 22053 5379 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 21203 5429 50  0001 C CNN
+	1    21403 5429
+	1    0    0    1   
+$EndComp
+Text Label 21403 5029 0    50   ~ 0
+CSWL_VMeter+
+Text Label 21803 4879 0    50   ~ 0
+CSWL_VMeter-
+Wire Wire Line
+	21503 6609 21503 5729
+Wire Wire Line
+	21903 6509 21903 5729
+$Comp
+L Connector_Generic:Conn_01x02 J24
+U 1 1 5D6A2FD4
+P 22253 6609
+F 0 "J24" H 22333 6601 50  0000 L CNN
+F 1 "Conn_01x02" H 22333 6510 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 22253 6609 50  0001 C CNN
+F 3 "~" H 22253 6609 50  0001 C CNN
+	1    22253 6609
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	21503 6609 22053 6609
+Wire Wire Line
+	21903 6509 22053 6509
+Wire Wire Line
+	21403 5129 21403 4829
+Connection ~ 20553 6029
+Wire Wire Line
+	20553 6100 20553 6029
+Wire Wire Line
+	20553 5100 20553 5029
+Connection ~ 20553 5100
+Wire Wire Line
+	19900 5100 20553 5100
+Wire Wire Line
+	19900 6100 20553 6100
+Wire Wire Line
+	19250 5750 18550 5750
+Wire Wire Line
+	19250 5650 18550 5650
+Wire Wire Line
+	19250 5850 19050 5850
+Wire Wire Line
+	19050 5550 19050 5850
+Wire Wire Line
+	19050 5550 19250 5550
+Connection ~ 19050 5850
+$Comp
+L power:GNDS #PWR073
+U 1 1 5F144E3E
+P 19050 5850
+F 0 "#PWR073" H 19050 5600 50  0001 C CNN
+F 1 "GNDS" H 19055 5677 50  0000 C CNN
+F 2 "" H 19050 5850 50  0001 C CNN
+F 3 "" H 19050 5850 50  0001 C CNN
+	1    19050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR075
+U 1 1 5F144E34
+P 19350 5050
+F 0 "#PWR075" H 19350 4800 50  0001 C CNN
+F 1 "GNDS" H 19355 4877 50  0000 C CNN
+F 2 "" H 19350 5050 50  0001 C CNN
+F 3 "" H 19350 5050 50  0001 C CNN
+	1    19350 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19350 4950 19350 5050
+Wire Wire Line
+	19350 4950 19700 4950
+Connection ~ 19350 4950
+Wire Wire Line
+	19100 4950 19350 4950
+Wire Wire Line
+	20050 4650 20050 5700
+Wire Wire Line
+	19800 4650 20050 4650
+Connection ~ 19800 4650
+Wire Wire Line
+	19800 4650 19800 4550
+$Comp
+L Device:R R43
+U 1 1 5F144E1D
+P 19100 4800
+AR Path="/5F144E1D" Ref="R43"  Part="1" 
+AR Path="/5D3C2445/5F144E1D" Ref="R?"  Part="1" 
+F 0 "R43" H 19000 4900 50  0000 R CNN
+F 1 "100K" H 19000 4800 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19030 4800 50  0001 C CNN
+F 3 "~" H 19100 4800 50  0001 C CNN
+	1    19100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19700 4650 19800 4650
+Connection ~ 19700 4650
+$Comp
+L Device:C C?
+U 1 1 5F144E13
+P 19700 4800
+AR Path="/5D3C2445/5F144E13" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5F144E13" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5F144E13" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5F144E13" Ref="C?"  Part="1" 
+AR Path="/5F144E13" Ref="C40"  Part="1" 
+F 0 "C40" H 19585 4754 50  0000 R CNN
+F 1 "1uF" H 19585 4845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19738 4650 50  0001 C CNN
+F 3 "~" H 19700 4800 50  0001 C CNN
+	1    19700 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19350 4650 19700 4650
+Wire Wire Line
+	19100 4650 19350 4650
+Connection ~ 19350 4650
+$Comp
+L Device:C C?
+U 1 1 5F144E09
+P 19350 4800
+AR Path="/5D3C2445/5F144E09" Ref="C?"  Part="1" 
+AR Path="/5D3F6A12/5F144E09" Ref="C?"  Part="1" 
+AR Path="/5D3FDFBE/5F144E09" Ref="C?"  Part="1" 
+AR Path="/5D403D60/5F144E09" Ref="C?"  Part="1" 
+AR Path="/5F144E09" Ref="C38"  Part="1" 
+F 0 "C38" H 19235 4754 50  0000 R CNN
+F 1 "10uF" H 19235 4845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19388 4650 50  0001 C CNN
+F 3 "~" H 19350 4800 50  0001 C CNN
+	1    19350 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19900 5700 19900 5650
+Wire Wire Line
+	19900 5700 20050 5700
+Connection ~ 19900 5700
+Wire Wire Line
+	19900 5750 19900 5700
+Wire Wire Line
+	19900 6100 19900 5850
+Wire Wire Line
+	19900 5100 19900 5550
+$Comp
+L RuanProject:L9110 U11
+U 1 1 5F144DF7
+P 19650 5800
+F 0 "U11" H 19725 5335 50  0000 C CNN
+F 1 "L9110" H 19725 5426 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 19650 5800 50  0001 C CNN
+F 3 "" H 19650 5800 50  0001 C CNN
+	1    19650 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5VA #PWR078
+U 1 1 5F144DED
+P 19800 4550
+F 0 "#PWR078" H 19800 4400 50  0001 C CNN
+F 1 "+5VA" H 19815 4723 50  0000 C CNN
+F 2 "" H 19800 4550 50  0001 C CNN
+F 3 "" H 19800 4550 50  0001 C CNN
+	1    19800 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 15850 1400
+Connection ~ 15850 2400
+Wire Wire Line
+	15800 8800 15800 8550
+Wire Wire Line
+	15800 9550 15800 9100
+Connection ~ 15800 8550
+Connection ~ 15800 9550
+Wire Wire Line
+	15800 8550 15250 8550
+Wire Wire Line
+	15800 9550 15250 9550
+Text Label 17050 8450 0    50   ~ 0
+CSWL_IN-
+Text Label 16650 8450 0    50   ~ 0
+CSWL_IN+
+$Comp
+L Relay:G6SU-2 K1
+U 1 1 5D28062C
+P 16650 8950
+F 0 "K1" H 17280 8996 50  0000 L CNN
+F 1 "G6SU-2 DC5" H 17280 8905 50  0000 L CNN
+F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 17300 8900 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 16450 8950 50  0001 C CNN
+	1    16650 8950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	16250 8650 16250 8550
+NoConn ~ 16550 9250
+NoConn ~ 16950 9250
+Wire Wire Line
+	16650 8650 16650 8350
+Wire Wire Line
+	17050 8650 17050 8350
+Text Label 16750 9450 0    50   ~ 0
+DC15V+
+Wire Wire Line
+	16250 9550 16250 9250
+Wire Wire Line
+	15800 9550 16250 9550
+Wire Wire Line
+	15800 8550 16250 8550
+$Comp
+L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D1
+U 1 1 5D280606
+P 15800 9000
+F 0 "D1" V 15700 8850 50  0000 L CNN
+F 1 "1N5819HW-7-F" V 15550 8800 50  0000 L CNN
+F 2 "RuanProject:D_SOD-123" H 16000 9200 60  0001 L CNN
+F 3 "" H 16000 9300 60  0001 L CNN
+F 4 "jcet  B5819W " V 15800 9000 50  0001 C CNN "Alternative"
+	1    15800 9000
+	0    1    -1   0   
+$EndComp
+Text Label 17150 9350 0    50   ~ 0
+DC15V-
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5D28056F
+P 17500 10250
+F 0 "J17" H 17580 10242 50  0000 L CNN
+F 1 "Conn_01x02" H 17580 10151 50  0000 L CNN
+F 2 "RuanProject:KF129-2P" H 17500 10250 50  0001 C CNN
+F 3 "~" H 17500 10250 50  0001 C CNN
+	1    17500 10250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	16750 10250 17300 10250
+Wire Wire Line
+	17150 10150 17300 10150
+Wire Wire Line
+	16750 10250 16750 9250
+Wire Wire Line
+	17150 10150 17150 9250
+Text Label 18400 2500 2    50   ~ 0
+GPA4_SPI1_NSS
+Text Label 18400 2600 2    50   ~ 0
+GPA5_SPI1_SCK
+Wire Wire Line
+	20553 5100 20553 5228
+Connection ~ 20553 5228
+Wire Wire Line
+	20553 5228 20553 5279
+Wire Wire Line
+	20553 5528 20553 6029
+Wire Wire Line
+	20050 9700 20050 9250
+Text Label 21200 9750 1    50   ~ 0
+S_C
+Text Label 21400 9750 1    50   ~ 0
+S_N
+Text Label 20800 9750 1    50   ~ 0
+DC12_C
+Text Label 21000 9750 1    50   ~ 0
+DC12_N
+Wire Wire Line
+	21400 9400 21400 9750
+Wire Wire Line
+	21200 9400 21200 9750
+Wire Wire Line
+	21000 9400 21000 9750
+Wire Wire Line
+	20800 9400 20800 9750
+$Comp
+L Relay:G6SU-2 K6
+U 1 1 5F91BA1B
+P 20900 9100
+F 0 "K6" H 21530 9146 50  0000 L CNN
+F 1 "G6SU-2 DC5" H 21530 9055 50  0000 L CNN
+F 2 "RuanProject:Relay_DPDT_Omron_G6SK-2" H 21550 9050 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 20700 9100 50  0001 C CNN
+	1    20900 9100
+	1    0    0    1   
+$EndComp
+Text Label 21300 8500 0    50   ~ 0
+S_COM
+Connection ~ 20050 8700
+Connection ~ 20050 9700
+Wire Wire Line
+	20050 8700 19500 8700
+Wire Wire Line
+	20050 9700 19500 9700
+Wire Wire Line
+	20500 8800 20500 8700
+Wire Wire Line
+	20900 8800 20900 8500
+Wire Wire Line
+	21300 8800 21300 8500
+Text Label 20900 8500 0    50   ~ 0
+DC12V+
+Wire Wire Line
+	20500 9700 20500 9400
+Wire Wire Line
+	20050 9700 20500 9700
+Wire Wire Line
+	20050 8950 20050 8700
+Wire Wire Line
+	20050 8700 20500 8700
+$Comp
+L dk_Diodes-Rectifiers-Single:1N5819HW-7-F D6
+U 1 1 5F91BA06
+P 20050 9150
+F 0 "D6" V 19950 9000 50  0000 L CNN
+F 1 "1N5819HW-7-F" V 19800 8950 50  0000 L CNN
+F 2 "RuanProject:D_SOD-123" H 20250 9350 60  0001 L CNN
+F 3 "" H 20250 9450 60  0001 L CNN
+F 4 "jcet  B5819W " V 20050 9150 50  0001 C CNN "Alternative"
+	1    20050 9150
+	0    1    -1   0   
+$EndComp
+Text Label 13900 9100 0    50   ~ 0
+GPB1
+Text Label 13900 9200 0    50   ~ 0
+GPB2
+Text Label 14300 5650 2    50   ~ 0
+GPA6_SPI1_MISO
+Text Label 14300 5750 2    50   ~ 0
+GPA7_SPI1_MOSI
+Text Label 18550 5750 2    50   ~ 0
+GPA6_SPI1_MISO
+Text Label 18550 5650 2    50   ~ 0
+GPA7_SPI1_MOSI
 $EndSCHEMATC
