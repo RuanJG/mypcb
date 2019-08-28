@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CJQ4459
+K P-Channel MOSFET
+$ENDCMP
+#
+$CMP STUSB4500
+D ST PD2.0 charging controller for remover device.
+K usb
+$ENDCMP
+#
+#End Doc Library

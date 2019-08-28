@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name 105450-0101)(type Legacy)(uri ${KIPRJMOD}/lib/105450-0101.lib)(options "")(descr ""))
+  (lib (name RuanProject)(type Legacy)(uri ${KIPRJMOD}/lib/RuanProject.lib)(options "")(descr ""))
+  (lib (name dk_Diodes-Rectifiers-Arrays)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_Diodes-Rectifiers-Arrays.lib)(options "")(descr ""))
+  (lib (name dk_Diodes-Rectifiers-Single)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_Diodes-Rectifiers-Single.lib)(options "")(descr ""))
+  (lib (name dk_Diodes-Zener-Single)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_Diodes-Zener-Single.lib)(options "")(descr ""))
+  (lib (name dk_Transistors-FETs-MOSFETs-Arrays)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_Transistors-FETs-MOSFETs-Arrays.lib)(options "")(descr ""))
+  (lib (name dk_Transistors-FETs-MOSFETs-RF)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_Transistors-FETs-MOSFETs-RF.lib)(options "")(descr ""))
+  (lib (name dk_Transistors-FETs-MOSFETs-Single)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib)(options "")(descr ""))
+  (lib (name dk_TVS-Diodes)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
+  (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
+)

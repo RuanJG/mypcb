@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 105450-0101)(type Legacy)(uri ${KIPRJMOD}/lib/105450-0101.mod)(options "")(descr ""))
+  (lib (name RuanProject)(type KiCad)(uri ${KIPRJMOD}/lib/RuanProject.pretty)(options "")(descr ""))
+)
