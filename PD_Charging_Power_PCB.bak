@@ -427,17 +427,6 @@ F 4 "22 V QFN1610 ESDA25P35" V 10000 2100 50  0001 C CNN "Detail"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_2Pole TP8
-U 1 1 5CF1B4D0
-P 10350 1600
-F 0 "TP8" H 10350 1795 50  0000 C CNN
-F 1 "Power Soldering Pad" H 10350 1704 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 10350 1600 50  0001 C CNN
-F 3 "~" H 10350 1600 50  0001 C CNN
-	1    10350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 5CF1C14A
 P 10800 2500
@@ -629,7 +618,7 @@ U 1 1 5CEE995B
 P 7100 4900
 F 0 "CLK1" V 7100 5088 50  0001 L CNN
 F 1 "CLK" V 7145 5088 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7300 4900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7300 4900 50  0001 C CNN
 F 3 "~" H 7300 4900 50  0001 C CNN
 	1    7100 4900
 	0    1    1    0   
@@ -640,7 +629,7 @@ U 1 1 5CEE9ADC
 P 7100 5050
 F 0 "SDA1" V 7100 5238 50  0001 L CNN
 F 1 "SDA" V 7145 5238 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7300 5050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7300 5050 50  0001 C CNN
 F 3 "~" H 7300 5050 50  0001 C CNN
 	1    7100 5050
 	0    1    1    0   
@@ -651,7 +640,7 @@ U 1 1 5CEE9C5D
 P 7100 5150
 F 0 "INT1" V 7100 5338 50  0001 L CNN
 F 1 "INT" V 7145 5338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7300 5150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7300 5150 50  0001 C CNN
 F 3 "~" H 7300 5150 50  0001 C CNN
 	1    7100 5150
 	0    1    1    0   
@@ -662,7 +651,7 @@ U 1 1 5CEE9EC4
 P 7100 5250
 F 0 "RST1" V 7100 5438 50  0001 L CNN
 F 1 "RST" V 7145 5438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7300 5250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7300 5250 50  0001 C CNN
 F 3 "~" H 7300 5250 50  0001 C CNN
 	1    7100 5250
 	0    1    1    0   
@@ -755,7 +744,7 @@ U 1 1 5D07C1AD
 P 3500 1050
 F 0 "VBUS1" V 3500 1238 50  0001 L CNN
 F 1 "VBUS" V 3545 1238 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3700 1050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3700 1050 50  0001 C CNN
 F 3 "~" H 3700 1050 50  0001 C CNN
 	1    3500 1050
 	0    -1   -1   0   
@@ -845,12 +834,12 @@ Wire Wire Line
 	3500 2900 3650 2900
 Connection ~ 3500 1600
 $Comp
-L Connector:TestPoint GND
+L Connector:TestPoint GND1
 U 1 1 5D1E44D4
 P 3650 2900
-F 0 "GND" V 3650 3088 50  0001 L CNN
+F 0 "GND1" V 3650 3088 50  0001 L CNN
 F 1 "GND" V 3695 3088 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3850 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2900 50  0001 C CNN
 F 3 "~" H 3850 2900 50  0001 C CNN
 	1    3650 2900
 	1    0    0    -1  
@@ -898,4 +887,26 @@ Wire Wire Line
 Connection ~ 3500 2800
 Wire Wire Line
 	3500 3000 3500 2900
+$Comp
+L Connector:TestPoint VOUT+
+U 1 1 5D7F5188
+P 10150 1600
+F 0 "VOUT+" V 10150 1788 50  0001 L CNN
+F 1 "VOUT+" V 10195 1788 50  0000 L CNN
+F 2 "RuanProject:TestPoint_Pad_4mmx3mm" H 10350 1600 50  0001 C CNN
+F 3 "~" H 10350 1600 50  0001 C CNN
+	1    10150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint Vout-
+U 1 1 5D7F59F7
+P 10550 1600
+F 0 "Vout-" V 10550 1788 50  0001 L CNN
+F 1 "Vout-" V 10595 1788 50  0000 L CNN
+F 2 "RuanProject:TestPoint_Pad_4mmx3mm" H 10750 1600 50  0001 C CNN
+F 3 "~" H 10750 1600 50  0001 C CNN
+	1    10550 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -427,17 +427,6 @@ F 4 "22 V QFN1610 ESDA25P35" V 10000 2100 50  0001 C CNN "Detail"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_2Pole TP8
-U 1 1 5CF1B4D0
-P 10350 1600
-F 0 "TP8" H 10350 1795 50  0000 C CNN
-F 1 "Power Soldering Pad" H 10350 1704 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 10350 1600 50  0001 C CNN
-F 3 "~" H 10350 1600 50  0001 C CNN
-	1    10350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 5CF1C14A
 P 10800 2500
@@ -898,4 +887,26 @@ Wire Wire Line
 Connection ~ 3500 2800
 Wire Wire Line
 	3500 3000 3500 2900
+$Comp
+L Connector:TestPoint VOUT+1
+U 1 1 5D7F5188
+P 10150 1600
+F 0 "VOUT+1" V 10150 1788 50  0001 L CNN
+F 1 "VOUT+" V 10195 1788 50  0000 L CNN
+F 2 "RuanProject:TestPoint_Pad_4mmx3mm" H 10350 1600 50  0001 C CNN
+F 3 "~" H 10350 1600 50  0001 C CNN
+	1    10150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint Vout-1
+U 1 1 5D7F59F7
+P 10550 1600
+F 0 "Vout-1" V 10550 1788 50  0001 L CNN
+F 1 "Vout-" V 10595 1788 50  0000 L CNN
+F 2 "RuanProject:TestPoint_Pad_4mmx3mm" H 10750 1600 50  0001 C CNN
+F 3 "~" H 10750 1600 50  0001 C CNN
+	1    10550 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
