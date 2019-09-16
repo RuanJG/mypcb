@@ -1,4 +1,4 @@
-15946533848993392
+15948110007451739
 105450-0101
 MOLEX_105450-0101
 
@@ -281,6 +281,13 @@ Cherry MX keyswitch 1.00u PCB
 2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_Plate
+Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u plate
+0
+2
+2
+Button_Switch_Keyboard
+SW_Cherry_MX_1.00u_Plate_copy
 Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u plate
 0
@@ -27629,6 +27636,13 @@ Surface mounted pin header SMD 2x40 2.00mm double row
 80
 80
 Connector_PinHeader_2.54mm
+Connector_Set_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+Connector_PinHeader_2.54mm
 PinHeader_1x01_P2.54mm_Horizontal
 Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x01 2.54mm single row
@@ -27674,13 +27688,6 @@ Connector_PinHeader_2.54mm
 PinHeader_1x03_P2.54mm_Horizontal
 Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x03 2.54mm single row
-0
-3
-3
-Connector_PinHeader_2.54mm
-PinHeader_1x03_P2.54mm_Vertical
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
 0
 3
 3
@@ -58219,15 +58226,15 @@ SOP SO
 4
 4
 Package_SO
-SOP-8_3.76x4.96mm_P1.27mm
-SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP-8_6.62x9.15mm_P2.54mm
+SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
 0
 8
 8
 Package_SO
-SOP-8_6.62x9.15mm_P2.54mm
-SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP-8_CJQ4459
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
 0
 8
