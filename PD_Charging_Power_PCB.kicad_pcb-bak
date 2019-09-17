@@ -1,7 +1,7 @@
 (kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
-    (thickness 1.6)
+    (thickness 1)
     (drawings 168)
     (tracks 360)
     (zones 0)
@@ -196,7 +196,7 @@
     (tags "CONN DEV")
     (path /5D7F5188)
     (attr virtual)
-    (fp_text reference VOUT+1 (at 0.6731 -5.0671 270) (layer B.SilkS)
+    (fp_text reference VOUT+1 (at 0.6731 -5.0671 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value VOUT+ (at 3.13944 5.5372 270) (layer B.Fab)
@@ -215,7 +215,7 @@
     (tags "CONN DEV")
     (path /5D7F59F7)
     (attr virtual)
-    (fp_text reference Vout-1 (at 0.0635 -4.7625 270) (layer B.SilkS)
+    (fp_text reference Vout-1 (at 0.0635 -4.7625 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Vout- (at 3.13944 5.5372 270) (layer B.Fab)
@@ -235,7 +235,7 @@
     (fp_text reference J1 (at -5.83184 3.01498) (layer F.SilkS)
       (effects (font (size 1.0036 1.0036) (thickness 0.05)))
     )
-    (fp_text value 105450-0101 (at -1.89789 5.71781) (layer F.SilkS)
+    (fp_text value 105450-0101 (at -1.89789 5.71781) (layer F.SilkS) hide
       (effects (font (size 1.0035 1.0035) (thickness 0.05)))
     )
     (fp_poly (pts (xy -3.50241 -1.88) (xy 3.5 -1.88) (xy 3.5 3.7726) (xy -3.50241 3.7726)) (layer Dwgs.User) (width 0))
@@ -331,6 +331,11 @@
       (net 19 "Net-(J1-PadA2)"))
     (pad A1 smd rect (at -3 -3.77) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
+    (model ${KISYS3DMOD}/1054500101.stp
+      (offset (xyz 0 0.8 1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D7BAE01)
@@ -1077,7 +1082,7 @@
       (net 7 "Net-(C6-Pad1)"))
     (pad 8 smd roundrect (at 2.5375 1.905 270) (size 2.2 0.65) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 7 "Net-(C6-Pad1)"))
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOP-8_3.76x4.96mm_P1.27mm.wrl
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1103,6 +1108,11 @@
       (net 2 GND))
     (pad 2 smd rect (at 0 0 270) (size 0.55 0.8) (layers B.Cu B.Paste B.Mask)
       (net 7 "Net-(C6-Pad1)"))
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (offset (xyz 0.6 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Package_TO_SOT_SMD:SOT-323_SC-70 (layer B.Cu) (tedit 5A02FF57) (tstamp 5D7B23BB)
@@ -1165,6 +1175,11 @@
       (net 2 GND))
     (pad 2 smd rect (at 0 0 180) (size 0.55 0.8) (layers B.Cu B.Paste B.Mask)
       (net 1 VBUS))
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (offset (xyz 0.6 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer B.Cu) (tedit 5A02FF57) (tstamp 5D7B32CF)
