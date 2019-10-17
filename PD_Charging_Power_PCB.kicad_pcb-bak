@@ -1612,9 +1612,9 @@
   (gr_line (start 50.15608 165.05078) (end 65.15608 165.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D1302B8))
   (gr_line (start 65.15608 165.05078) (end 65.15608 137.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D7A8328))
   (gr_line (start 50.1523 146.05078) (end 50.15608 165.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D13029B))
-  (gr_line (start 50.15608 146.05078) (end 35.15608 146.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D13028B))
-  (gr_line (start 65.15608 137.05078) (end 35.15608 137.05078) (layer Edge.Cuts) (width 0.05) (tstamp 5D7A8325))
-  (gr_line (start 35.15608 146.05078) (end 35.15608 137.05078) (layer Edge.Cuts) (width 0.05) (tstamp 5D130274))
+  (gr_line (start 50.1523 146.05078) (end 35.15608 146.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D13028B))
+  (gr_line (start 65.15608 137.05078) (end 35.15608 137.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D7A8325))
+  (gr_line (start 35.15608 146.05078) (end 35.15608 137.05078) (layer Edge.Cuts) (width 0.01) (tstamp 5D130274))
 
   (via (at 42.164 137.922) (size 0.4) (drill 0.2) (layers F.Cu B.Cu) (net 1) (tstamp 5D7F6312))
   (segment (start 43.40384 139.338022) (end 43.40384 139.80302) (width 0.25) (layer F.Cu) (net 1))
