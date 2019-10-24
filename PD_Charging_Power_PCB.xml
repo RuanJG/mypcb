@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\Xrayer-Wireless Charger\STUSB4500_PCB\PD_Charging_Power_PCB\PD_Charging_Power_PCB.sch</source>
-    <date>26/06/2019 10:55:43</date>
+    <date>2019/10/24 15:32:31</date>
     <tool>Eeschema (5.1.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,17 +25,19 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Detail">22 V QFN1610 ESDA25P35</field>
+        <field name="PN">ST  ESDA25P35-1U1M</field>
       </fields>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CECF426</tstamp>
     </comp>
     <comp ref="D1">
-      <value>ESD24VC2</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <value>ESDA25W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</datasheet>
       <fields>
         <field name="Detail">25 V TRANSIL SOT323 SOT323-3L ESDA25W</field>
+        <field name="PN">ST  ESDA25W</field>
       </fields>
       <libsource lib="Diode" part="2BZX84Cxx" description="300mW Double Zener Diode, SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,43 +45,24 @@
     </comp>
     <comp ref="C1">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">4.7 µF CAPC3216N X7R 25 V ±20% 1206</field>
+        <field name="Detail">Auto CAP CER 4.7uF 25V 10% X5R 0603</field>
+        <field name="PN">Murata GRT188R61E475KE13D</field>
+        <field name="字段4">TDK  C1608X5R1E475K080AC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CED4F74</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>470R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Detail">470 RESC1608N ±5% 0603 SMD</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CEE0CB1</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Detail">1 µF CAPC1608N X5R 25 V ±20% 0603</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CEE1AFF</tstamp>
     </comp>
     <comp ref="R2">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">1 k RESC1608N ±1% 0603 SMD</field>
+        <field name="Detail">RES 1K OHM 5% 1/8W 0603</field>
+        <field name="PN">KOA  RK73B1JTTD102J</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -87,10 +70,11 @@
     </comp>
     <comp ref="C3">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">1 µF CAPC1608N X5R 25 V ±20% 0603</field>
+        <field name="Detail">CAP CER 1UF 25V X5R 0402 10%</field>
+        <field name="PN">Murata  GRT155R61E105KE01D</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -98,10 +82,11 @@
     </comp>
     <comp ref="C4">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">1 µF CAPC1608N X5R 25 V ±20% 0603</field>
+        <field name="Detail">CAP CER 1UF 25V X5R 0402 10%</field>
+        <field name="PN">Murata  GRT155R61E105KE01D</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -109,42 +94,35 @@
     </comp>
     <comp ref="C5">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">1 µF CAPC1608N X5R 25 V ±20% 0603</field>
+        <field name="Detail">CAP CER 1UF 25V X5R 0402 10%</field>
+        <field name="PN">Murata  GRT155R61E105KE01D</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEF13D9</tstamp>
     </comp>
-    <comp ref="Q1">
-      <value>CJQ4459</value>
-      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
-      <fields>
-        <field name="Detail"> MOSFET P-CH 30V 6A POWERFLAT , 8-PowerVDFN</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BS250" description="-0.18A Id, -60V Vds, P-Channel MOSFET, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CEF71CD</tstamp>
-    </comp>
     <comp ref="R6">
       <value>100K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">100 k RESC1608N ±5% 0603 SMD</field>
+        <field name="Detail">RES 100K OHM 1% 1/10W 0402</field>
+        <field name="PN">KOA RK73H1ETTP1003F</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEFD4B2</tstamp>
     </comp>
     <comp ref="R7">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">22k RESC1608N ±5% 0603 SMD</field>
+        <field name="Detail">RES 22K OHM 5% 1/10W 0402</field>
+        <field name="PN">KOA RK73B1ETTP223J</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -152,10 +130,11 @@
     </comp>
     <comp ref="R10">
       <value>100R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">100 RESC1608N ±5% 0603 SMD</field>
+        <field name="Detail">RES 100 OHM 5% 1/10W 0402</field>
+        <field name="PN">KOA RK73B1ETTP101J</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,10 +142,11 @@
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">100 nF CAPC1608N X7R 50 V ±10% 0603</field>
+        <field name="Detail">CAP CER 0.1UF 50V X7R 0402 10%</field>
+        <field name="PN">Murata  GCM155R71H104KE02D</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -177,7 +157,8 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">1 k RESC1608N ±1% 0603 SMD</field>
+        <field name="Detail">RES 1K OHM 5% 1/8W 0603</field>
+        <field name="PN">KOA  RK73B1JTTD102J</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -189,24 +170,18 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Detail">22 V QFN1610 ESDA25P35</field>
+        <field name="PN">ST  ESDA25P35-1U1M</field>
       </fields>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CF139B5</tstamp>
     </comp>
-    <comp ref="TP8">
-      <value>Power Soldering Pad</value>
-      <footprint>TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CF1B4D0</tstamp>
-    </comp>
     <comp ref="Q2">
       <value>2N7002KDW</value>
-      <footprint>digikey-footprints:SOT-363</footprint>
+      <footprint>RuanProject:SOT-363_SC-70-6</footprint>
       <fields>
         <field name="Detail">MOSFET 2N-CH 60V 300mA VGS = 4.5V, ID =200mA , SOT363</field>
+        <field name="PN">JCET 2N7002KDW</field>
       </fields>
       <libsource lib="dk_Transistors-FETs-MOSFETs-Arrays" part="2N7002DW" description="MOSFET 2N-CH 60V 0.115A SC70-6"/>
       <sheetpath names="/" tstamps="/"/>
@@ -215,30 +190,21 @@
     <comp ref="U1">
       <value>STUSB4500</value>
       <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm</footprint>
+      <fields>
+        <field name="Detail">IC USB CONTROLLER I2C 24QFN</field>
+        <field name="PN">ST  STUSB4500QTR</field>
+      </fields>
       <libsource lib="RuanProject" part="STUSB4500" description="ST PD2.0 charging controller for remover device."/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CF4A24D</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>105450-0101</value>
-      <footprint>MOLEX_105450-0101</footprint>
-      <fields>
-        <field name="Field4">1054500101</field>
-        <field name="Field5">None</field>
-        <field name="Field6">USB Shielded I/O Receptacle; Type C; Right Angle; Surface Mount; Gold over Nickel</field>
-        <field name="Field7">Molex</field>
-        <field name="Field8">WM12856CT-ND</field>
-      </fields>
-      <libsource lib="105450-0101" part="105450-0101" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CF4D489</tstamp>
     </comp>
     <comp ref="R8">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">10 k   ±5% 0402 SMD</field>
+        <field name="Detail">RES, 1/10W, 1%, 0402, SMD, 10k</field>
+        <field name="PN">KOA RK73H1ETTP1002F</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -249,55 +215,40 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">10 k   ±5% 0402 SMD</field>
+        <field name="Detail">RES, 1/10W, 1%, 0402, SMD, 10k</field>
+        <field name="PN">KOA RK73H1ETTP1002F</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CF67317</tstamp>
     </comp>
-    <comp ref="TP2">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CEE9125</tstamp>
-    </comp>
-    <comp ref="TP3">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CEE984D</tstamp>
-    </comp>
-    <comp ref="TP4">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+    <comp ref="CLK1">
+      <value>CLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEE995B</tstamp>
     </comp>
-    <comp ref="TP5">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+    <comp ref="SDA1">
+      <value>SDA</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEE9ADC</tstamp>
     </comp>
-    <comp ref="TP6">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+    <comp ref="INT1">
+      <value>INT</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEE9C5D</tstamp>
     </comp>
-    <comp ref="TP7">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+    <comp ref="RST1">
+      <value>RST</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
@@ -305,37 +256,31 @@
     </comp>
     <comp ref="R3">
       <value>100K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">100 k RESC1608N ±5% 0603 SMD</field>
+        <field name="Detail">RES 100K OHM 1% 1/10W 0402</field>
+        <field name="PN">KOA RK73H1ETTP1003F</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CF0503B</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>BAT54W</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf</datasheet>
-      <libsource lib="Diode" part="BAT54W" description="Schottky barrier diode, SOT-323"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CEFC31C</tstamp>
     </comp>
     <comp ref="R5">
       <value>0R(NC)</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">0R 0402 SMD</field>
+        <field name="Detail">RES 0 OHM JUMPER 0402</field>
+        <field name="PN">KOA RK73Z1ETTP</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D072A33</tstamp>
     </comp>
-    <comp ref="TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+    <comp ref="VBUS1">
+      <value>VBUS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
@@ -346,11 +291,63 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Detail">0R 0402 SMD</field>
+        <field name="Detail">RES 0 OHM JUMPER 0402</field>
+        <field name="PN">KOA RK73Z1ETTP</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D0918C3</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>STL6P3LLH6</value>
+      <footprint>RuanProject:PowerFLAT-3x3mm-8pin</footprint>
+      <fields>
+        <field name="Detail">	MOSFET P-CH 30V 6A POWERFLAT</field>
+        <field name="PN">ST   STL6P3LLH6</field>
+      </fields>
+      <libsource lib="RuanProject" part="CJQ4459" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D17B0DD</tstamp>
+    </comp>
+    <comp ref="GND1">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1E44D4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>105450-0101</value>
+      <footprint>RuanProject:MOLEX_105450-0101</footprint>
+      <fields>
+        <field name="Detail">CONN RCP USB3.1 TYPEC 24P SMD RA</field>
+        <field name="PN">MOLEX  105450-0101</field>
+        <field name="字段4">1054500101</field>
+        <field name="字段5">None</field>
+        <field name="字段6">USB Shielded I/O Receptacle; Type C; Right Angle; Surface Mount; Gold over Nickel</field>
+        <field name="字段7">Molex</field>
+        <field name="字段8">WM12856CT-ND</field>
+      </fields>
+      <libsource lib="105450-0101" part="105450-0101" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7A7D47</tstamp>
+    </comp>
+    <comp ref="VOUT1">
+      <value>VOUT+</value>
+      <footprint>RuanProject:TestPoint_Pad_4mmx3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F5188</tstamp>
+    </comp>
+    <comp ref="Vout2">
+      <value>Vout-</value>
+      <footprint>RuanProject:TestPoint_Pad_4mmx3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F59F7</tstamp>
     </comp>
   </components>
   <libparts>
@@ -360,11 +357,11 @@
         <field name="Value">105450-0101</field>
         <field name="Footprint">MOLEX_105450-0101</field>
         <field name="Datasheet">https://www.digikey.com.cn/product-detail/zh/molex/1054500101/WM12856CT-ND/5843891?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
-        <field name="Field4">1054500101</field>
-        <field name="Field5">None</field>
-        <field name="Field6">USB Shielded I/O Receptacle; Type C; Right Angle; Surface Mount; Gold over Nickel</field>
-        <field name="Field7">Molex</field>
-        <field name="Field8">WM12856CT-ND</field>
+        <field name="字段4">1054500101</field>
+        <field name="字段5">None</field>
+        <field name="字段6">USB Shielded I/O Receptacle; Type C; Right Angle; Surface Mount; Gold over Nickel</field>
+        <field name="字段7">Molex</field>
+        <field name="字段8">WM12856CT-ND</field>
       </fields>
       <pins>
         <pin num="A1" name="GND1" type="passive"/>
@@ -410,22 +407,6 @@
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="TestPoint_2Pole">
-      <description>2-polar test point</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Pin*</fp>
-        <fp>Test*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TestPoint_2Pole</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -475,21 +456,24 @@
         <pin num="3" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="BAT54W">
-      <description>Schottky barrier diode, SOT-323</description>
-      <docs>https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf</docs>
+    <libpart lib="RuanProject" part="CJQ4459">
       <footprints>
-        <fp>SOT?323*</fp>
+        <fp>TO?92*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">BAT54W</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Reference">Q</field>
+        <field name="Value">CJQ4459</field>
+        <field name="Footprint">RuanProject:SOP-8_CJQ4459</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="NC" type="NotConnected"/>
-        <pin num="3" name="K" type="passive"/>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="RuanProject" part="STUSB4500">
@@ -524,23 +508,6 @@
         <pin num="23" name="V2.7" type="output"/>
         <pin num="24" name="VDD" type="input"/>
         <pin num="25" name="expPad" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="BS250">
-      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, TO-92</description>
-      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
-      <footprints>
-        <fp>TO?92*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BS250</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="2" name="G" type="input"/>
-        <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="dk_Transistors-FETs-MOSFETs-Arrays" part="2N7002DW">
@@ -599,9 +566,6 @@
     <library logical="RuanProject">
       <uri>E:\Xrayer-Wireless Charger\STUSB4500_PCB\PD_Charging_Power_PCB/lib/RuanProject.lib</uri>
     </library>
-    <library logical="Transistor_FET">
-      <uri>D:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
-    </library>
     <library logical="dk_Transistors-FETs-MOSFETs-Arrays">
       <uri>E:\Xrayer-Wireless Charger\STUSB4500_PCB\PD_Charging_Power_PCB/lib/digikey-kicad-library/digikey-symbols/dk_Transistors-FETs-MOSFETs-Arrays.lib</uri>
     </library>
@@ -610,200 +574,193 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(Q2-Pad2)">
-      <node ref="Q2" pin="3"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="R9" pin="2"/>
+    <net code="1" name="Net-(J1-PadB2)">
+      <node ref="J1" pin="B2"/>
     </net>
-    <net code="2" name="Net-(J1-PadB7)">
-      <node ref="J1" pin="B7"/>
+    <net code="2" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="3" name="Net-(J1-PadB6)">
-      <node ref="J1" pin="B6"/>
+    <net code="3" name="Net-(J1-PadA10)">
+      <node ref="J1" pin="A10"/>
     </net>
-    <net code="4" name="+2V8">
-      <node ref="R9" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="23"/>
+    <net code="4" name="Net-(J1-PadA11)">
+      <node ref="J1" pin="A11"/>
     </net>
-    <net code="5" name="GND">
-      <node ref="R3" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="D1" pin="3"/>
-      <node ref="D4" pin="1"/>
-      <node ref="Q2" pin="4"/>
-      <node ref="U1" pin="10"/>
-      <node ref="U1" pin="12"/>
-      <node ref="U1" pin="13"/>
-      <node ref="TP8" pin="2"/>
-      <node ref="U1" pin="22"/>
-      <node ref="J1" pin="A12"/>
-      <node ref="J1" pin="B1"/>
-      <node ref="J1" pin="B12"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="25"/>
-      <node ref="J1" pin="S4"/>
-      <node ref="J1" pin="S3"/>
-      <node ref="J1" pin="S2"/>
-      <node ref="J1" pin="S1"/>
-      <node ref="J1" pin="A1"/>
-    </net>
-    <net code="6" name="Net-(J1-PadB10)">
+    <net code="5" name="Net-(J1-PadB10)">
       <node ref="J1" pin="B10"/>
     </net>
-    <net code="7" name="Net-(Q2-Pad5)">
-      <node ref="U1" pin="14"/>
-      <node ref="Q2" pin="5"/>
-      <node ref="R8" pin="2"/>
+    <net code="6" name="Net-(J1-PadB11)">
+      <node ref="J1" pin="B11"/>
     </net>
-    <net code="8" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
+    <net code="7" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
     </net>
-    <net code="9" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
-      <node ref="U1" pin="9"/>
+    <net code="8" name="Net-(J1-PadB3)">
+      <node ref="J1" pin="B3"/>
     </net>
-    <net code="10" name="/CC2">
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="5"/>
-      <node ref="J1" pin="B5"/>
-      <node ref="D1" pin="2"/>
+    <net code="9" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="20"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J1-PadA3)">
+      <node ref="J1" pin="A3"/>
     </net>
     <net code="11" name="Net-(J1-PadA2)">
       <node ref="J1" pin="A2"/>
     </net>
-    <net code="12" name="/CC1">
+    <net code="12" name="GND">
+      <node ref="Q2" pin="1"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="J1" pin="S2"/>
+      <node ref="Vout2" pin="1"/>
+      <node ref="U1" pin="22"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J1" pin="S1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="3"/>
+      <node ref="GND1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J1" pin="S4"/>
+      <node ref="J1" pin="S3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q2" pin="4"/>
+    </net>
+    <net code="13" name="Net-(R11-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad1)">
+      <node ref="RST1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="16"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="16" name="+2V8">
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="17" name="Net-(INT1-Pad1)">
+      <node ref="INT1" pin="1"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="18" name="Net-(SDA1-Pad1)">
+      <node ref="SDA1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="19" name="Net-(CLK1-Pad1)">
+      <node ref="CLK1" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="22" name="Net-(J1-PadB7)">
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="23" name="Net-(J1-PadB6)">
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="24" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="25" name="Net-(J1-PadA6)">
+      <node ref="J1" pin="A6"/>
+    </net>
+    <net code="26" name="Net-(J1-PadA7)">
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="27" name="Net-(Q2-Pad5)">
+      <node ref="U1" pin="14"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="5"/>
+    </net>
+    <net code="28" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="21"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="30" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="18"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="31" name="/CC1">
       <node ref="U1" pin="1"/>
       <node ref="J1" pin="A5"/>
       <node ref="D1" pin="1"/>
       <node ref="U1" pin="2"/>
     </net>
-    <net code="13" name="Net-(J1-PadB11)">
-      <node ref="J1" pin="B11"/>
+    <net code="32" name="/CC2">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="B5"/>
     </net>
-    <net code="14" name="Net-(J1-PadB3)">
-      <node ref="J1" pin="B3"/>
-    </net>
-    <net code="15" name="Net-(J1-PadB2)">
-      <node ref="J1" pin="B2"/>
-    </net>
-    <net code="16" name="Net-(J1-PadB8)">
-      <node ref="J1" pin="B8"/>
-    </net>
-    <net code="17" name="Net-(J1-PadA11)">
-      <node ref="J1" pin="A11"/>
-    </net>
-    <net code="18" name="Net-(J1-PadA10)">
-      <node ref="J1" pin="A10"/>
-    </net>
-    <net code="19" name="Net-(J1-PadA8)">
-      <node ref="J1" pin="A8"/>
-    </net>
-    <net code="20" name="Net-(J1-PadA7)">
-      <node ref="J1" pin="A7"/>
-    </net>
-    <net code="21" name="Net-(J1-PadA6)">
-      <node ref="J1" pin="A6"/>
-    </net>
-    <net code="22" name="Net-(J1-PadA3)">
-      <node ref="J1" pin="A3"/>
-    </net>
-    <net code="23" name="Net-(R5-Pad2)">
-      <node ref="U1" pin="20"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="24" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="25" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="26" name="Net-(Q2-Pad6)">
-      <node ref="R4" pin="1"/>
-      <node ref="Q2" pin="6"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="27" name="Net-(R4-Pad2)">
-      <node ref="U1" pin="16"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="28" name="Net-(TP5-Pad1)">
-      <node ref="U1" pin="8"/>
-      <node ref="TP5" pin="1"/>
-    </net>
-    <net code="29" name="Net-(TP4-Pad1)">
-      <node ref="U1" pin="7"/>
-      <node ref="TP4" pin="1"/>
-    </net>
-    <net code="30" name="Net-(TP3-Pad1)">
-      <node ref="TP3" pin="1"/>
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="31" name="Net-(TP6-Pad1)">
-      <node ref="U1" pin="19"/>
-      <node ref="TP6" pin="1"/>
-    </net>
-    <net code="32" name="Net-(R3-Pad1)">
-      <node ref="U1" pin="6"/>
-      <node ref="TP7" pin="1"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="33" name="Net-(TP2-Pad1)">
-      <node ref="U1" pin="17"/>
-      <node ref="TP2" pin="1"/>
-    </net>
-    <net code="34" name="Net-(R2-Pad2)">
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="35" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="D3" pin="3"/>
+    <net code="33" name="VBUS">
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="VBUS1" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C5" pin="2"/>
       <node ref="R2" pin="1"/>
-    </net>
-    <net code="36" name="Net-(C4-Pad2)">
-      <node ref="C4" pin="2"/>
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="37" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="TP8" pin="1"/>
-      <node ref="D4" pin="2"/>
+      <node ref="J1" pin="A4"/>
       <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(Q2-Pad6)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C6-Pad1)">
       <node ref="R11" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="VOUT1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
     <net code="38" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
       <node ref="R10" pin="1"/>
-    </net>
-    <net code="39" name="Net-(Q1-Pad2)">
-      <node ref="R10" pin="2"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="Q1" pin="2"/>
-    </net>
-    <net code="40" name="VBUS">
-      <node ref="U1" pin="24"/>
-      <node ref="J1" pin="A9"/>
-      <node ref="C5" pin="2"/>
-      <node ref="J1" pin="B9"/>
-      <node ref="R6" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="D2" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="J1" pin="B4"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="J1" pin="A4"/>
+      <node ref="C6" pin="2"/>
     </net>
   </nets>
 </export>

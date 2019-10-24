@@ -1,0 +1,72 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+TRANS_STL3N65M2
+$EndINDEX
+$MODULE TRANS_STL3N65M2
+Po 0 0 0 15 00000000 00000000 ~~
+Li TRANS_STL3N65M2
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0 -2.675 1 1 0 0.05 N V 21 "TRANS_STL3N65M2"
+T1 0.635 2.675 1 1 0 0.05 N V 21 "VAL**"
+DS -0.32 -1.65 -1.65 -1.65 0.127 21
+DS 1.65 -1.65 1.65 1.65 0.127 27
+DS -1.65 1.65 -0.32 1.65 0.127 21
+DS 1.65 -1.65 -1.65 -1.65 0.127 27
+DS -1.65 1.65 1.65 1.65 0.127 27
+DS -1.65 1.65 -1.65 -1.65 0.127 27
+DS -1.65 -1.65 -1.65 -1.495 0.127 21
+DS -1.65 1.495 -1.65 1.65 0.127 21
+DS 1.95 -1.9 -1.95 -1.9 0.05 26
+DS 1.95 -1.9 1.95 1.9 0.05 26
+DS -1.95 1.9 1.95 1.9 0.05 26
+DS -1.95 1.9 -1.95 -1.9 0.05 26
+DC -2.3 -0.975 -2.2 -0.975 0.2 27
+DC -2.3 -0.975 -2.2 -0.975 0.2 21
+$PAD
+Sh "1" R 0.4 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.5 -0.975
+$EndPAD
+$PAD
+Sh "2" R 0.4 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.5 -0.325
+$EndPAD
+$PAD
+Sh "3" R 0.4 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.5 0.325
+$EndPAD
+$PAD
+Sh "4" R 0.4 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.5 0.975
+$EndPAD
+$PAD
+Sh "5" R 1.7 2.75 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.85 0
+$EndPAD
+$EndMODULE TRANS_STL3N65M2

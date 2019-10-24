@@ -1,4 +1,4 @@
-9387735013217
+12531447710020
 RuanProject
 MOLEX_105450-0101
 
@@ -13,6 +13,13 @@ MOLEX_105450-0101_modifyed
 0
 23
 23
+RuanProject
+PowerFLAT-3x3mm-8pin
+
+
+0
+9
+8
 RuanProject
 QFN 1610
 
@@ -41,3 +48,10 @@ CONN DEV
 0
 1
 1
+RuanProject
+TRANS_STL3N65M2
+
+
+0
+8
+8
