@@ -17,10 +17,10 @@ $EndDescr
 Wire Notes Line
 	13350 16100 13200 16100
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J?
+L Connector_Generic:Conn_02x10_Odd_Even J1
 U 1 1 5D5217FA
 P 7520 7042
-F 0 "J?" H 7570 7659 50  0000 C CNN
+F 0 "J1" H 7570 7659 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 7570 7568 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 7520 7042 50  0001 C CNN
 F 3 "https://item.taobao.com/item.htm?spm=a230r.1.14.25.fb6f668eCFoc54&id=38301441607&ns=1&abbucket=9#detail" H 7520 7042 50  0001 C CNN
@@ -28,10 +28,10 @@ F 3 "https://item.taobao.com/item.htm?spm=a230r.1.14.25.fb6f668eCFoc54&id=383014
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J?
+L Connector_Generic:Conn_02x10_Odd_Even J2
 U 1 1 5D5236B9
 P 10848 7284
-F 0 "J?" H 10898 7901 50  0000 C CNN
+F 0 "J2" H 10898 7901 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 10898 7810 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 10848 7284 50  0001 C CNN
 F 3 "https://item.taobao.com/item.htm?spm=a230r.1.14.25.fb6f668eCFoc54&id=38301441607&ns=1&abbucket=9#detail" H 10848 7284 50  0001 C CNN
@@ -390,10 +390,10 @@ $EndComp
 Text Label 10122 7384 2    50   ~ 0
 CSWL_IN-
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5D55DD6A
 P 10398 7782
-F 0 "TP?" V 10398 8082 50  0000 C CNN
+F 0 "TP1" V 10398 8082 50  0000 C CNN
 F 1 "TP" V 10398 8132 50  0001 C CNN
 F 2 "CSWL_Tester_Pin_Board:PinCard_Hole_D2.3mm_1.3dill" H 10598 7782 50  0001 C CNN
 F 3 "~" H 10598 7782 50  0001 C CNN
@@ -401,10 +401,10 @@ F 3 "~" H 10598 7782 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5D55E545
 P 11414 7684
-F 0 "TP?" V 11414 7984 50  0000 C CNN
+F 0 "TP3" V 11414 7984 50  0000 C CNN
 F 1 "TP" V 11414 8034 50  0001 C CNN
 F 2 "CSWL_Tester_Pin_Board:PinCard_Hole_D2.3mm_1.3dill" H 11614 7684 50  0001 C CNN
 F 3 "~" H 11614 7684 50  0001 C CNN
@@ -412,10 +412,10 @@ F 3 "~" H 11614 7684 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5D55F15D
 P 11404 7782
-F 0 "TP?" V 11404 8082 50  0000 C CNN
+F 0 "TP2" V 11404 8082 50  0000 C CNN
 F 1 "TP" V 11404 8132 50  0001 C CNN
 F 2 "CSWL_Tester_Pin_Board:PinCard_Hole_D2.3mm_1.3dill" H 11604 7782 50  0001 C CNN
 F 3 "~" H 11604 7782 50  0001 C CNN
